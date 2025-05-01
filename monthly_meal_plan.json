@@ -3,109 +3,75 @@
     "date": "2025-05-01",
     "meals": [
       {
+        "name": "Lunch",
+        "title": "Grön ärtsoppa med rågbröd",
         "time": "12:00",
-        "title": "Lentil Soup with Spinach",
         "calories": 450,
-        "macros": {
-          "protein": 25,
-          "carbs": 55,
-          "fat": 10
-        },
-        "micros": {
-          "fiber": 15,
-          "vitamin_C": 25,
-          "iron": 4
-        },
         "ingredients": [
           {
-            "name": "Red lentils",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Spinach",
-            "amount": "50g"
-          },
-          {
-            "name": "Carrot",
-            "amount": "50g"
-          },
-          {
-            "name": "Onion",
-            "amount": "30g"
-          },
-          {
-            "name": "Vegetable stock",
-            "amount": "300ml"
-          }
-        ],
-        "instructions": "Cook all ingredients until tender; blend lightly.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Protein Smoothie",
-        "calories": 200,
-        "macros": {
-          "protein": 20,
-          "carbs": 20,
-          "fat": 4
-        },
-        "micros": {
-          "vitamin_C": 30,
-          "potassium": 400,
-          "magnesium": 50
-        },
-        "ingredients": [
-          {
-            "name": "Banana",
-            "amount": "1 small"
-          },
-          {
-            "name": "Protein powder",
-            "amount": "1 scoop"
-          },
-          {
-            "name": "Almond milk",
-            "amount": "200ml"
-          }
-        ],
-        "instructions": "Blend all ingredients until smooth.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Tofu Stir-Fry with Vegetables",
-        "calories": 500,
-        "macros": {
-          "protein": 20,
-          "carbs": 60,
-          "fat": 18
-        },
-        "micros": {
-          "fiber": 8,
-          "calcium": 250,
-          "iron": 3
-        },
-        "ingredients": [
-          {
-            "name": "Firm tofu",
+            "name": "Gröna ärtor",
             "amount": "150g"
           },
           {
-            "name": "Mixed stir-fry veggies",
-            "amount": "200g"
+            "name": "Lök",
+            "amount": "30g"
           },
           {
-            "name": "Brown rice",
-            "amount": "100g cooked"
+            "name": "Grönsaksbuljong",
+            "amount": "2 dl"
           },
           {
-            "name": "Soy sauce",
-            "amount": "1 tbsp"
+            "name": "Rågbröd",
+            "amount": "1 skiva"
           }
         ],
-        "instructions": "Stir-fry tofu and veggies; serve over rice.",
-        "name": "Dinner"
+        "instructions": "Koka soppa på ärtor och servera med rågbröd."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Grekisk yoghurt",
+            "amount": "150g"
+          },
+          {
+            "name": "Blandade bär",
+            "amount": "100g"
+          },
+          {
+            "name": "Mandlar",
+            "amount": "10g"
+          }
+        ],
+        "instructions": "Toppa yoghurten med bär och mandlar."
+      },
+      {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Laxfilé",
+            "amount": "120g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "100g"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
       }
     ]
   },
@@ -113,97 +79,75 @@
     "date": "2025-05-02",
     "meals": [
       {
+        "name": "Lunch",
+        "title": "Grillad halloumisallad",
         "time": "12:00",
-        "title": "Tuna Salad Sandwich",
         "calories": 450,
-        "macros": {
-          "protein": 30,
-          "carbs": 45,
-          "fat": 15
-        },
-        "micros": {
-          "omega_3": 1000,
-          "vitamin_A": 500,
-          "iron": 2
-        },
         "ingredients": [
           {
-            "name": "Canned tuna in water",
+            "name": "Halloumi",
             "amount": "100g"
           },
           {
-            "name": "Whole grain bread",
-            "amount": "2 slices"
+            "name": "Spenat",
+            "amount": "40g"
           },
           {
-            "name": "Lettuce",
-            "amount": "30g"
+            "name": "Tomat",
+            "amount": "60g"
           },
           {
-            "name": "Greek yogurt",
-            "amount": "2 tbsp"
+            "name": "Valnötter",
+            "amount": "10g"
           }
         ],
-        "instructions": "Mix tuna with yogurt; assemble sandwich with lettuce.",
-        "name": "Lunch"
+        "instructions": "Grilla halloumi och lägg på sallad med valnötter."
       },
       {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
         "time": "15:00",
-        "title": "Cottage Cheese with Pineapple",
         "calories": 200,
-        "macros": {
-          "protein": 15,
-          "carbs": 20,
-          "fat": 6
-        },
-        "micros": {
-          "calcium": 150,
-          "vitamin_C": 15,
-          "phosphorus": 200
-        },
         "ingredients": [
           {
-            "name": "Low-fat cottage cheese",
+            "name": "Grekisk yoghurt",
             "amount": "150g"
           },
           {
-            "name": "Pineapple chunks",
-            "amount": "80g"
+            "name": "Blandade bär",
+            "amount": "100g"
+          },
+          {
+            "name": "Mandlar",
+            "amount": "10g"
           }
         ],
-        "instructions": "Top cottage cheese with pineapple.",
-        "name": "Snack"
+        "instructions": "Toppa yoghurten med bär och mandlar."
       },
       {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
         "time": "17:30",
-        "title": "Baked Cod with Roasted Vegetables",
         "calories": 500,
-        "macros": {
-          "protein": 35,
-          "carbs": 50,
-          "fat": 15
-        },
-        "micros": {
-          "omega_3": 500,
-          "vitamin_C": 50,
-          "iron": 2
-        },
         "ingredients": [
           {
-            "name": "Cod fillet",
+            "name": "Laxfilé",
             "amount": "120g"
           },
           {
-            "name": "Mixed veggies (zucchini, bell pepper)",
-            "amount": "200g"
+            "name": "Quinoa",
+            "amount": "100g"
           },
           {
-            "name": "Olive oil",
-            "amount": "1 tbsp"
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
           }
         ],
-        "instructions": "Bake cod and veggies with olive oil until cooked.",
-        "name": "Dinner"
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
       }
     ]
   },
@@ -211,105 +155,79 @@
     "date": "2025-05-03",
     "meals": [
       {
+        "name": "Lunch",
+        "title": "Sötpotatis- och svartbönbowl",
         "time": "12:00",
-        "title": "Chicken Caesar Salad",
         "calories": 450,
-        "macros": {
-          "protein": 35,
-          "carbs": 20,
-          "fat": 22
-        },
-        "micros": {
-          "vitamin_A": 800,
-          "calcium": 100,
-          "iron": 2
-        },
         "ingredients": [
           {
-            "name": "Grilled chicken breast",
-            "amount": "120g"
-          },
-          {
-            "name": "Romaine lettuce",
+            "name": "Sötpotatis",
             "amount": "100g"
           },
           {
-            "name": "Parmesan",
-            "amount": "20g"
+            "name": "Svarta bönor",
+            "amount": "80g"
           },
           {
-            "name": "Caesar dressing",
-            "amount": "2 tbsp"
+            "name": "Majs",
+            "amount": "40g"
+          },
+          {
+            "name": "Limejuice",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Koriander",
+            "amount": "1 msk"
           }
         ],
-        "instructions": "Toss lettuce, chicken, cheese, and dressing together.",
-        "name": "Lunch"
+        "instructions": "Rosta sötpotatis, blanda med övriga ingredienser."
       },
       {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
         "time": "15:00",
-        "title": "Mixed Nuts & Dried Fruit",
         "calories": 200,
-        "macros": {
-          "protein": 6,
-          "carbs": 18,
-          "fat": 12
-        },
-        "micros": {
-          "magnesium": 80,
-          "vitamin_E": 2,
-          "zinc": 1
-        },
         "ingredients": [
           {
-            "name": "Mixed nuts",
-            "amount": "20g"
+            "name": "Grekisk yoghurt",
+            "amount": "150g"
           },
           {
-            "name": "Dried apricots",
-            "amount": "20g"
-          }
-        ],
-        "instructions": "Mix nuts and dried fruit.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Turkey Chili",
-        "calories": 500,
-        "macros": {
-          "protein": 30,
-          "carbs": 45,
-          "fat": 18
-        },
-        "micros": {
-          "fiber": 10,
-          "vitamin_C": 40,
-          "iron": 3
-        },
-        "ingredients": [
-          {
-            "name": "Ground turkey",
-            "amount": "120g"
-          },
-          {
-            "name": "Kidney beans",
+            "name": "Blandade bär",
             "amount": "100g"
           },
           {
-            "name": "Tomato sauce",
-            "amount": "150ml"
-          },
-          {
-            "name": "Onion",
-            "amount": "30g"
-          },
-          {
-            "name": "Chili spices",
-            "amount": "to taste"
+            "name": "Mandlar",
+            "amount": "10g"
           }
         ],
-        "instructions": "Cook turkey with spices; add beans and sauce; simmer.",
-        "name": "Dinner"
+        "instructions": "Toppa yoghurten med bär och mandlar."
+      },
+      {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Laxfilé",
+            "amount": "120g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "100g"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
       }
     ]
   },
@@ -317,97 +235,79 @@
     "date": "2025-05-04",
     "meals": [
       {
+        "name": "Lunch",
+        "title": "Fullkornspasta med tomatsås och linser",
         "time": "12:00",
-        "title": "Veggie Omelette & Whole Grain Toast",
         "calories": 450,
-        "macros": {
-          "protein": 25,
-          "carbs": 45,
-          "fat": 18
-        },
-        "micros": {
-          "vitamin_D": 2,
-          "fiber": 4,
-          "iron": 2
-        },
         "ingredients": [
           {
-            "name": "Eggs",
-            "amount": "2"
+            "name": "Fullkornspasta",
+            "amount": "75g"
           },
           {
-            "name": "Spinach",
-            "amount": "30g"
+            "name": "Krossade tomater",
+            "amount": "100g"
           },
           {
-            "name": "Mushrooms",
+            "name": "Röda linser",
             "amount": "50g"
           },
           {
-            "name": "Whole grain bread",
-            "amount": "1 slice"
+            "name": "Vitlök",
+            "amount": "1 klyfta"
+          },
+          {
+            "name": "Oregano",
+            "amount": "1 tsk"
           }
         ],
-        "instructions": "Cook omelette with veggies; serve with toast.",
-        "name": "Lunch"
+        "instructions": "Koka linser och pasta, blanda med tomatsås."
       },
       {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
         "time": "15:00",
-        "title": "Greek Yogurt with Honey",
         "calories": 200,
-        "macros": {
-          "protein": 12,
-          "carbs": 22,
-          "fat": 6
-        },
-        "micros": {
-          "calcium": 150,
-          "vitamin_C": 1,
-          "potassium": 200
-        },
         "ingredients": [
           {
-            "name": "Greek yogurt",
+            "name": "Grekisk yoghurt",
             "amount": "150g"
           },
           {
-            "name": "Honey",
-            "amount": "1 tbsp"
+            "name": "Blandade bär",
+            "amount": "100g"
+          },
+          {
+            "name": "Mandlar",
+            "amount": "10g"
           }
         ],
-        "instructions": "Drizzle honey over yogurt.",
-        "name": "Snack"
+        "instructions": "Toppa yoghurten med bär och mandlar."
       },
       {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
         "time": "17:30",
-        "title": "Veggie Pasta with Pesto",
         "calories": 500,
-        "macros": {
-          "protein": 18,
-          "carbs": 60,
-          "fat": 20
-        },
-        "micros": {
-          "fiber": 6,
-          "vitamin_A": 500,
-          "vitamin_C": 40
-        },
         "ingredients": [
           {
-            "name": "Whole grain pasta",
-            "amount": "100g cooked"
+            "name": "Laxfilé",
+            "amount": "120g"
           },
           {
-            "name": "Pesto sauce",
-            "amount": "50g"
+            "name": "Quinoa",
+            "amount": "100g"
           },
           {
-            "name": "Cherry tomatoes",
-            "amount": "50g"
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
           }
         ],
-        "instructions": "Toss pasta with pesto and tomatoes.",
-        "name": "Dinner"
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
       }
     ]
   },
@@ -415,117 +315,79 @@
     "date": "2025-05-05",
     "meals": [
       {
+        "name": "Lunch",
+        "title": "Rödbetsbiffar med bulgursallad",
         "time": "12:00",
-        "title": "Chickpea and Vegetable Salad",
         "calories": 450,
-        "macros": {
-          "protein": 20,
-          "carbs": 50,
-          "fat": 15
-        },
-        "micros": {
-          "fiber": 12,
-          "vitamin_C": 30,
-          "iron": 3
-        },
         "ingredients": [
           {
-            "name": "Cooked chickpeas",
+            "name": "Rödbetor",
             "amount": "100g"
           },
           {
-            "name": "Cucumber",
-            "amount": "50g"
+            "name": "Ägg",
+            "amount": "1"
           },
           {
-            "name": "Tomato",
-            "amount": "60g"
+            "name": "Havregryn",
+            "amount": "30g"
           },
           {
-            "name": "Bell pepper",
-            "amount": "50g"
+            "name": "Bulgur",
+            "amount": "70g"
           },
           {
-            "name": "Olive oil",
-            "amount": "1 tbsp"
-          },
-          {
-            "name": "Lemon juice",
-            "amount": "1 tbsp"
-          },
-          {
-            "name": "Parsley",
-            "amount": "5g"
+            "name": "Färsk persilja",
+            "amount": "1 msk"
           }
         ],
-        "instructions": "Combine all ingredients in a bowl and toss.",
-        "name": "Lunch"
+        "instructions": "Stek biffar och servera med bulgursallad."
       },
       {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
         "time": "15:00",
-        "title": "Greek Yogurt with Berries & Almonds",
         "calories": 200,
-        "macros": {
-          "protein": 12,
-          "carbs": 20,
-          "fat": 8
-        },
-        "micros": {
-          "calcium": 150,
-          "vitamin_C": 20,
-          "magnesium": 50
-        },
         "ingredients": [
           {
-            "name": "Greek yogurt",
+            "name": "Grekisk yoghurt",
             "amount": "150g"
           },
           {
-            "name": "Mixed berries",
+            "name": "Blandade bär",
             "amount": "100g"
           },
           {
-            "name": "Almonds",
+            "name": "Mandlar",
             "amount": "10g"
           }
         ],
-        "instructions": "Top yogurt with berries and almonds.",
-        "name": "Snack"
+        "instructions": "Toppa yoghurten med bär och mandlar."
       },
       {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
         "time": "17:30",
-        "title": "Grilled Salmon with Quinoa & Broccoli",
         "calories": 500,
-        "macros": {
-          "protein": 35,
-          "carbs": 45,
-          "fat": 18
-        },
-        "micros": {
-          "omega_3": 2000,
-          "vitamin_C": 60,
-          "iron": 2
-        },
         "ingredients": [
           {
-            "name": "Salmon fillet",
+            "name": "Laxfilé",
             "amount": "120g"
           },
           {
             "name": "Quinoa",
-            "amount": "100g cooked"
+            "amount": "100g"
           },
           {
             "name": "Broccoli",
             "amount": "100g"
           },
           {
-            "name": "Olive oil",
-            "amount": "1 tsp"
+            "name": "Olivolja",
+            "amount": "1 tsk"
           }
         ],
-        "instructions": "Grill salmon; serve with steamed broccoli and quinoa; drizzle with olive oil.",
-        "name": "Dinner"
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
       }
     ]
   },
@@ -533,105 +395,83 @@
     "date": "2025-05-06",
     "meals": [
       {
+        "name": "Lunch",
+        "title": "Kikärtssallad med grönsaker",
         "time": "12:00",
-        "title": "Turkey & Avocado Whole Wheat Wrap",
         "calories": 450,
-        "macros": {
-          "protein": 30,
-          "carbs": 45,
-          "fat": 15
-        },
-        "micros": {
-          "fiber": 7,
-          "vitamin_E": 3,
-          "potassium": 450
-        },
         "ingredients": [
           {
-            "name": "Whole wheat tortilla",
-            "amount": "1"
-          },
-          {
-            "name": "Turkey breast slices",
+            "name": "Kikärtor (kokta)",
             "amount": "100g"
           },
           {
-            "name": "Avocado",
+            "name": "Gurka",
             "amount": "50g"
           },
           {
-            "name": "Lettuce",
-            "amount": "30g"
+            "name": "Tomat",
+            "amount": "60g"
           },
           {
-            "name": "Tomato",
+            "name": "Paprika",
             "amount": "50g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Citronsaft",
+            "amount": "1 msk"
           }
         ],
-        "instructions": "Assemble wrap with turkey, avocado, lettuce, and tomato.",
-        "name": "Lunch"
+        "instructions": "Blanda allt i en skål och rör om."
       },
       {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
         "time": "15:00",
-        "title": "Apple with Peanut Butter",
         "calories": 200,
-        "macros": {
-          "protein": 4,
-          "carbs": 28,
-          "fat": 10
-        },
-        "micros": {
-          "fiber": 4,
-          "vitamin_C": 5,
-          "magnesium": 10
-        },
         "ingredients": [
           {
-            "name": "Apple",
-            "amount": "1 medium"
-          },
-          {
-            "name": "Peanut butter",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Slice apple and serve with peanut butter.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Beef Stir-Fry with Vegetables",
-        "calories": 500,
-        "macros": {
-          "protein": 30,
-          "carbs": 50,
-          "fat": 16
-        },
-        "micros": {
-          "iron": 3,
-          "vitamin_A": 800,
-          "vitamin_C": 40
-        },
-        "ingredients": [
-          {
-            "name": "Lean beef strips",
+            "name": "Grekisk yoghurt",
             "amount": "150g"
           },
           {
-            "name": "Mixed stir-fry veggies",
-            "amount": "200g"
+            "name": "Blandade bär",
+            "amount": "100g"
           },
           {
-            "name": "Brown rice",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Soy sauce",
-            "amount": "1 tbsp"
+            "name": "Mandlar",
+            "amount": "10g"
           }
         ],
-        "instructions": "Stir-fry beef and veggies; serve over brown rice.",
-        "name": "Dinner"
+        "instructions": "Toppa yoghurten med bär och mandlar."
+      },
+      {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Laxfilé",
+            "amount": "120g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "100g"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
       }
     ]
   },
@@ -639,105 +479,79 @@
     "date": "2025-05-07",
     "meals": [
       {
+        "name": "Lunch",
+        "title": "Kycklingsallad med quinoa",
         "time": "12:00",
-        "title": "Quinoa & Black Bean Bowl",
         "calories": 450,
-        "macros": {
-          "protein": 18,
-          "carbs": 60,
-          "fat": 12
-        },
-        "micros": {
-          "fiber": 10,
-          "iron": 4,
-          "magnesium": 120
-        },
         "ingredients": [
           {
-            "name": "Quinoa",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Black beans",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Corn",
-            "amount": "50g"
-          },
-          {
-            "name": "Avocado",
-            "amount": "50g"
-          },
-          {
-            "name": "Lime juice",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Combine ingredients in a bowl and season with lime juice.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Carrot Sticks & Hummus",
-        "calories": 200,
-        "macros": {
-          "protein": 5,
-          "carbs": 22,
-          "fat": 10
-        },
-        "micros": {
-          "vitamin_A": 600,
-          "fiber": 6,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Carrot sticks",
+            "name": "Grillad kyckling",
             "amount": "100g"
           },
           {
-            "name": "Hummus",
-            "amount": "40g"
-          }
-        ],
-        "instructions": "Dip carrot sticks in hummus.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Baked Chicken Breast with Sweet Potato & Green Beans",
-        "calories": 500,
-        "macros": {
-          "protein": 40,
-          "carbs": 45,
-          "fat": 15
-        },
-        "micros": {
-          "vitamin_C": 20,
-          "iron": 2,
-          "calcium": 30
-        },
-        "ingredients": [
-          {
-            "name": "Chicken breast",
-            "amount": "120g"
+            "name": "Quinoa",
+            "amount": "80g"
           },
           {
-            "name": "Sweet potato",
+            "name": "Spenat",
+            "amount": "30g"
+          },
+          {
+            "name": "Paprika",
+            "amount": "40g"
+          },
+          {
+            "name": "Citronjuice",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Blanda ingredienser och servera med citronjuice."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Grekisk yoghurt",
             "amount": "150g"
           },
           {
-            "name": "Green beans",
+            "name": "Blandade bär",
             "amount": "100g"
           },
           {
-            "name": "Olive oil",
-            "amount": "1 tsp"
+            "name": "Mandlar",
+            "amount": "10g"
           }
         ],
-        "instructions": "Bake chicken and sweet potato; steam green beans; serve together.",
-        "name": "Dinner"
+        "instructions": "Toppa yoghurten med bär och mandlar."
+      },
+      {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Laxfilé",
+            "amount": "120g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "100g"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
       }
     ]
   },
@@ -745,2433 +559,75 @@
     "date": "2025-05-08",
     "meals": [
       {
+        "name": "Lunch",
+        "title": "Falafel med couscous och tahinisås",
         "time": "12:00",
-        "title": "Lentil Soup with Spinach",
         "calories": 450,
-        "macros": {
-          "protein": 25,
-          "carbs": 55,
-          "fat": 10
-        },
-        "micros": {
-          "fiber": 15,
-          "vitamin_C": 25,
-          "iron": 4
-        },
         "ingredients": [
           {
-            "name": "Red lentils",
-            "amount": "100g cooked"
+            "name": "Falafel",
+            "amount": "100g"
           },
           {
-            "name": "Spinach",
+            "name": "Couscous",
+            "amount": "70g"
+          },
+          {
+            "name": "Gurka",
             "amount": "50g"
           },
           {
-            "name": "Carrot",
-            "amount": "50g"
-          },
-          {
-            "name": "Onion",
-            "amount": "30g"
-          },
-          {
-            "name": "Vegetable stock",
-            "amount": "300ml"
+            "name": "Tahinisås",
+            "amount": "1 msk"
           }
         ],
-        "instructions": "Cook all ingredients until tender; blend lightly.",
-        "name": "Lunch"
+        "instructions": "Servera falafel med couscous och tahinisås."
       },
       {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
         "time": "15:00",
-        "title": "Protein Smoothie",
         "calories": 200,
-        "macros": {
-          "protein": 20,
-          "carbs": 20,
-          "fat": 4
-        },
-        "micros": {
-          "vitamin_C": 30,
-          "potassium": 400,
-          "magnesium": 50
-        },
         "ingredients": [
           {
-            "name": "Banana",
-            "amount": "1 small"
-          },
-          {
-            "name": "Protein powder",
-            "amount": "1 scoop"
-          },
-          {
-            "name": "Almond milk",
-            "amount": "200ml"
-          }
-        ],
-        "instructions": "Blend all ingredients until smooth.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Tofu Stir-Fry with Vegetables",
-        "calories": 500,
-        "macros": {
-          "protein": 20,
-          "carbs": 60,
-          "fat": 18
-        },
-        "micros": {
-          "fiber": 8,
-          "calcium": 250,
-          "iron": 3
-        },
-        "ingredients": [
-          {
-            "name": "Firm tofu",
+            "name": "Grekisk yoghurt",
             "amount": "150g"
           },
           {
-            "name": "Mixed stir-fry veggies",
-            "amount": "200g"
-          },
-          {
-            "name": "Brown rice",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Soy sauce",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Stir-fry tofu and veggies; serve over rice.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-09",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Tuna Salad Sandwich",
-        "calories": 450,
-        "macros": {
-          "protein": 30,
-          "carbs": 45,
-          "fat": 15
-        },
-        "micros": {
-          "omega_3": 1000,
-          "vitamin_A": 500,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Canned tuna in water",
+            "name": "Blandade bär",
             "amount": "100g"
           },
           {
-            "name": "Whole grain bread",
-            "amount": "2 slices"
-          },
-          {
-            "name": "Lettuce",
-            "amount": "30g"
-          },
-          {
-            "name": "Greek yogurt",
-            "amount": "2 tbsp"
-          }
-        ],
-        "instructions": "Mix tuna with yogurt; assemble sandwich with lettuce.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Cottage Cheese with Pineapple",
-        "calories": 200,
-        "macros": {
-          "protein": 15,
-          "carbs": 20,
-          "fat": 6
-        },
-        "micros": {
-          "calcium": 150,
-          "vitamin_C": 15,
-          "phosphorus": 200
-        },
-        "ingredients": [
-          {
-            "name": "Low-fat cottage cheese",
-            "amount": "150g"
-          },
-          {
-            "name": "Pineapple chunks",
-            "amount": "80g"
-          }
-        ],
-        "instructions": "Top cottage cheese with pineapple.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Baked Cod with Roasted Vegetables",
-        "calories": 500,
-        "macros": {
-          "protein": 35,
-          "carbs": 50,
-          "fat": 15
-        },
-        "micros": {
-          "omega_3": 500,
-          "vitamin_C": 50,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Cod fillet",
-            "amount": "120g"
-          },
-          {
-            "name": "Mixed veggies (zucchini, bell pepper)",
-            "amount": "200g"
-          },
-          {
-            "name": "Olive oil",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Bake cod and veggies with olive oil until cooked.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-10",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Chicken Caesar Salad",
-        "calories": 450,
-        "macros": {
-          "protein": 35,
-          "carbs": 20,
-          "fat": 22
-        },
-        "micros": {
-          "vitamin_A": 800,
-          "calcium": 100,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Grilled chicken breast",
-            "amount": "120g"
-          },
-          {
-            "name": "Romaine lettuce",
-            "amount": "100g"
-          },
-          {
-            "name": "Parmesan",
-            "amount": "20g"
-          },
-          {
-            "name": "Caesar dressing",
-            "amount": "2 tbsp"
-          }
-        ],
-        "instructions": "Toss lettuce, chicken, cheese, and dressing together.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Mixed Nuts & Dried Fruit",
-        "calories": 200,
-        "macros": {
-          "protein": 6,
-          "carbs": 18,
-          "fat": 12
-        },
-        "micros": {
-          "magnesium": 80,
-          "vitamin_E": 2,
-          "zinc": 1
-        },
-        "ingredients": [
-          {
-            "name": "Mixed nuts",
-            "amount": "20g"
-          },
-          {
-            "name": "Dried apricots",
-            "amount": "20g"
-          }
-        ],
-        "instructions": "Mix nuts and dried fruit.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Turkey Chili",
-        "calories": 500,
-        "macros": {
-          "protein": 30,
-          "carbs": 45,
-          "fat": 18
-        },
-        "micros": {
-          "fiber": 10,
-          "vitamin_C": 40,
-          "iron": 3
-        },
-        "ingredients": [
-          {
-            "name": "Ground turkey",
-            "amount": "120g"
-          },
-          {
-            "name": "Kidney beans",
-            "amount": "100g"
-          },
-          {
-            "name": "Tomato sauce",
-            "amount": "150ml"
-          },
-          {
-            "name": "Onion",
-            "amount": "30g"
-          },
-          {
-            "name": "Chili spices",
-            "amount": "to taste"
-          }
-        ],
-        "instructions": "Cook turkey with spices; add beans and sauce; simmer.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-11",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Veggie Omelette & Whole Grain Toast",
-        "calories": 450,
-        "macros": {
-          "protein": 25,
-          "carbs": 45,
-          "fat": 18
-        },
-        "micros": {
-          "vitamin_D": 2,
-          "fiber": 4,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Eggs",
-            "amount": "2"
-          },
-          {
-            "name": "Spinach",
-            "amount": "30g"
-          },
-          {
-            "name": "Mushrooms",
-            "amount": "50g"
-          },
-          {
-            "name": "Whole grain bread",
-            "amount": "1 slice"
-          }
-        ],
-        "instructions": "Cook omelette with veggies; serve with toast.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Greek Yogurt with Honey",
-        "calories": 200,
-        "macros": {
-          "protein": 12,
-          "carbs": 22,
-          "fat": 6
-        },
-        "micros": {
-          "calcium": 150,
-          "vitamin_C": 1,
-          "potassium": 200
-        },
-        "ingredients": [
-          {
-            "name": "Greek yogurt",
-            "amount": "150g"
-          },
-          {
-            "name": "Honey",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Drizzle honey over yogurt.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Veggie Pasta with Pesto",
-        "calories": 500,
-        "macros": {
-          "protein": 18,
-          "carbs": 60,
-          "fat": 20
-        },
-        "micros": {
-          "fiber": 6,
-          "vitamin_A": 500,
-          "vitamin_C": 40
-        },
-        "ingredients": [
-          {
-            "name": "Whole grain pasta",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Pesto sauce",
-            "amount": "50g"
-          },
-          {
-            "name": "Cherry tomatoes",
-            "amount": "50g"
-          }
-        ],
-        "instructions": "Toss pasta with pesto and tomatoes.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-12",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Chickpea and Vegetable Salad",
-        "calories": 450,
-        "macros": {
-          "protein": 20,
-          "carbs": 50,
-          "fat": 15
-        },
-        "micros": {
-          "fiber": 12,
-          "vitamin_C": 30,
-          "iron": 3
-        },
-        "ingredients": [
-          {
-            "name": "Cooked chickpeas",
-            "amount": "100g"
-          },
-          {
-            "name": "Cucumber",
-            "amount": "50g"
-          },
-          {
-            "name": "Tomato",
-            "amount": "60g"
-          },
-          {
-            "name": "Bell pepper",
-            "amount": "50g"
-          },
-          {
-            "name": "Olive oil",
-            "amount": "1 tbsp"
-          },
-          {
-            "name": "Lemon juice",
-            "amount": "1 tbsp"
-          },
-          {
-            "name": "Parsley",
-            "amount": "5g"
-          }
-        ],
-        "instructions": "Combine all ingredients in a bowl and toss.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Greek Yogurt with Berries & Almonds",
-        "calories": 200,
-        "macros": {
-          "protein": 12,
-          "carbs": 20,
-          "fat": 8
-        },
-        "micros": {
-          "calcium": 150,
-          "vitamin_C": 20,
-          "magnesium": 50
-        },
-        "ingredients": [
-          {
-            "name": "Greek yogurt",
-            "amount": "150g"
-          },
-          {
-            "name": "Mixed berries",
-            "amount": "100g"
-          },
-          {
-            "name": "Almonds",
+            "name": "Mandlar",
             "amount": "10g"
           }
         ],
-        "instructions": "Top yogurt with berries and almonds.",
-        "name": "Snack"
+        "instructions": "Toppa yoghurten med bär och mandlar."
       },
       {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
         "time": "17:30",
-        "title": "Grilled Salmon with Quinoa & Broccoli",
         "calories": 500,
-        "macros": {
-          "protein": 35,
-          "carbs": 45,
-          "fat": 18
-        },
-        "micros": {
-          "omega_3": 2000,
-          "vitamin_C": 60,
-          "iron": 2
-        },
         "ingredients": [
           {
-            "name": "Salmon fillet",
+            "name": "Laxfilé",
             "amount": "120g"
           },
           {
             "name": "Quinoa",
-            "amount": "100g cooked"
+            "amount": "100g"
           },
           {
             "name": "Broccoli",
             "amount": "100g"
           },
           {
-            "name": "Olive oil",
-            "amount": "1 tsp"
+            "name": "Olivolja",
+            "amount": "1 tsk"
           }
         ],
-        "instructions": "Grill salmon; serve with steamed broccoli and quinoa; drizzle with olive oil.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-13",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Turkey & Avocado Whole Wheat Wrap",
-        "calories": 450,
-        "macros": {
-          "protein": 30,
-          "carbs": 45,
-          "fat": 15
-        },
-        "micros": {
-          "fiber": 7,
-          "vitamin_E": 3,
-          "potassium": 450
-        },
-        "ingredients": [
-          {
-            "name": "Whole wheat tortilla",
-            "amount": "1"
-          },
-          {
-            "name": "Turkey breast slices",
-            "amount": "100g"
-          },
-          {
-            "name": "Avocado",
-            "amount": "50g"
-          },
-          {
-            "name": "Lettuce",
-            "amount": "30g"
-          },
-          {
-            "name": "Tomato",
-            "amount": "50g"
-          }
-        ],
-        "instructions": "Assemble wrap with turkey, avocado, lettuce, and tomato.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Apple with Peanut Butter",
-        "calories": 200,
-        "macros": {
-          "protein": 4,
-          "carbs": 28,
-          "fat": 10
-        },
-        "micros": {
-          "fiber": 4,
-          "vitamin_C": 5,
-          "magnesium": 10
-        },
-        "ingredients": [
-          {
-            "name": "Apple",
-            "amount": "1 medium"
-          },
-          {
-            "name": "Peanut butter",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Slice apple and serve with peanut butter.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Beef Stir-Fry with Vegetables",
-        "calories": 500,
-        "macros": {
-          "protein": 30,
-          "carbs": 50,
-          "fat": 16
-        },
-        "micros": {
-          "iron": 3,
-          "vitamin_A": 800,
-          "vitamin_C": 40
-        },
-        "ingredients": [
-          {
-            "name": "Lean beef strips",
-            "amount": "150g"
-          },
-          {
-            "name": "Mixed stir-fry veggies",
-            "amount": "200g"
-          },
-          {
-            "name": "Brown rice",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Soy sauce",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Stir-fry beef and veggies; serve over brown rice.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-14",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Quinoa & Black Bean Bowl",
-        "calories": 450,
-        "macros": {
-          "protein": 18,
-          "carbs": 60,
-          "fat": 12
-        },
-        "micros": {
-          "fiber": 10,
-          "iron": 4,
-          "magnesium": 120
-        },
-        "ingredients": [
-          {
-            "name": "Quinoa",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Black beans",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Corn",
-            "amount": "50g"
-          },
-          {
-            "name": "Avocado",
-            "amount": "50g"
-          },
-          {
-            "name": "Lime juice",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Combine ingredients in a bowl and season with lime juice.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Carrot Sticks & Hummus",
-        "calories": 200,
-        "macros": {
-          "protein": 5,
-          "carbs": 22,
-          "fat": 10
-        },
-        "micros": {
-          "vitamin_A": 600,
-          "fiber": 6,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Carrot sticks",
-            "amount": "100g"
-          },
-          {
-            "name": "Hummus",
-            "amount": "40g"
-          }
-        ],
-        "instructions": "Dip carrot sticks in hummus.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Baked Chicken Breast with Sweet Potato & Green Beans",
-        "calories": 500,
-        "macros": {
-          "protein": 40,
-          "carbs": 45,
-          "fat": 15
-        },
-        "micros": {
-          "vitamin_C": 20,
-          "iron": 2,
-          "calcium": 30
-        },
-        "ingredients": [
-          {
-            "name": "Chicken breast",
-            "amount": "120g"
-          },
-          {
-            "name": "Sweet potato",
-            "amount": "150g"
-          },
-          {
-            "name": "Green beans",
-            "amount": "100g"
-          },
-          {
-            "name": "Olive oil",
-            "amount": "1 tsp"
-          }
-        ],
-        "instructions": "Bake chicken and sweet potato; steam green beans; serve together.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-15",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Lentil Soup with Spinach",
-        "calories": 450,
-        "macros": {
-          "protein": 25,
-          "carbs": 55,
-          "fat": 10
-        },
-        "micros": {
-          "fiber": 15,
-          "vitamin_C": 25,
-          "iron": 4
-        },
-        "ingredients": [
-          {
-            "name": "Red lentils",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Spinach",
-            "amount": "50g"
-          },
-          {
-            "name": "Carrot",
-            "amount": "50g"
-          },
-          {
-            "name": "Onion",
-            "amount": "30g"
-          },
-          {
-            "name": "Vegetable stock",
-            "amount": "300ml"
-          }
-        ],
-        "instructions": "Cook all ingredients until tender; blend lightly.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Protein Smoothie",
-        "calories": 200,
-        "macros": {
-          "protein": 20,
-          "carbs": 20,
-          "fat": 4
-        },
-        "micros": {
-          "vitamin_C": 30,
-          "potassium": 400,
-          "magnesium": 50
-        },
-        "ingredients": [
-          {
-            "name": "Banana",
-            "amount": "1 small"
-          },
-          {
-            "name": "Protein powder",
-            "amount": "1 scoop"
-          },
-          {
-            "name": "Almond milk",
-            "amount": "200ml"
-          }
-        ],
-        "instructions": "Blend all ingredients until smooth.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Tofu Stir-Fry with Vegetables",
-        "calories": 500,
-        "macros": {
-          "protein": 20,
-          "carbs": 60,
-          "fat": 18
-        },
-        "micros": {
-          "fiber": 8,
-          "calcium": 250,
-          "iron": 3
-        },
-        "ingredients": [
-          {
-            "name": "Firm tofu",
-            "amount": "150g"
-          },
-          {
-            "name": "Mixed stir-fry veggies",
-            "amount": "200g"
-          },
-          {
-            "name": "Brown rice",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Soy sauce",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Stir-fry tofu and veggies; serve over rice.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-16",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Tuna Salad Sandwich",
-        "calories": 450,
-        "macros": {
-          "protein": 30,
-          "carbs": 45,
-          "fat": 15
-        },
-        "micros": {
-          "omega_3": 1000,
-          "vitamin_A": 500,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Canned tuna in water",
-            "amount": "100g"
-          },
-          {
-            "name": "Whole grain bread",
-            "amount": "2 slices"
-          },
-          {
-            "name": "Lettuce",
-            "amount": "30g"
-          },
-          {
-            "name": "Greek yogurt",
-            "amount": "2 tbsp"
-          }
-        ],
-        "instructions": "Mix tuna with yogurt; assemble sandwich with lettuce.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Cottage Cheese with Pineapple",
-        "calories": 200,
-        "macros": {
-          "protein": 15,
-          "carbs": 20,
-          "fat": 6
-        },
-        "micros": {
-          "calcium": 150,
-          "vitamin_C": 15,
-          "phosphorus": 200
-        },
-        "ingredients": [
-          {
-            "name": "Low-fat cottage cheese",
-            "amount": "150g"
-          },
-          {
-            "name": "Pineapple chunks",
-            "amount": "80g"
-          }
-        ],
-        "instructions": "Top cottage cheese with pineapple.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Baked Cod with Roasted Vegetables",
-        "calories": 500,
-        "macros": {
-          "protein": 35,
-          "carbs": 50,
-          "fat": 15
-        },
-        "micros": {
-          "omega_3": 500,
-          "vitamin_C": 50,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Cod fillet",
-            "amount": "120g"
-          },
-          {
-            "name": "Mixed veggies (zucchini, bell pepper)",
-            "amount": "200g"
-          },
-          {
-            "name": "Olive oil",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Bake cod and veggies with olive oil until cooked.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-17",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Chicken Caesar Salad",
-        "calories": 450,
-        "macros": {
-          "protein": 35,
-          "carbs": 20,
-          "fat": 22
-        },
-        "micros": {
-          "vitamin_A": 800,
-          "calcium": 100,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Grilled chicken breast",
-            "amount": "120g"
-          },
-          {
-            "name": "Romaine lettuce",
-            "amount": "100g"
-          },
-          {
-            "name": "Parmesan",
-            "amount": "20g"
-          },
-          {
-            "name": "Caesar dressing",
-            "amount": "2 tbsp"
-          }
-        ],
-        "instructions": "Toss lettuce, chicken, cheese, and dressing together.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Mixed Nuts & Dried Fruit",
-        "calories": 200,
-        "macros": {
-          "protein": 6,
-          "carbs": 18,
-          "fat": 12
-        },
-        "micros": {
-          "magnesium": 80,
-          "vitamin_E": 2,
-          "zinc": 1
-        },
-        "ingredients": [
-          {
-            "name": "Mixed nuts",
-            "amount": "20g"
-          },
-          {
-            "name": "Dried apricots",
-            "amount": "20g"
-          }
-        ],
-        "instructions": "Mix nuts and dried fruit.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Turkey Chili",
-        "calories": 500,
-        "macros": {
-          "protein": 30,
-          "carbs": 45,
-          "fat": 18
-        },
-        "micros": {
-          "fiber": 10,
-          "vitamin_C": 40,
-          "iron": 3
-        },
-        "ingredients": [
-          {
-            "name": "Ground turkey",
-            "amount": "120g"
-          },
-          {
-            "name": "Kidney beans",
-            "amount": "100g"
-          },
-          {
-            "name": "Tomato sauce",
-            "amount": "150ml"
-          },
-          {
-            "name": "Onion",
-            "amount": "30g"
-          },
-          {
-            "name": "Chili spices",
-            "amount": "to taste"
-          }
-        ],
-        "instructions": "Cook turkey with spices; add beans and sauce; simmer.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-18",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Veggie Omelette & Whole Grain Toast",
-        "calories": 450,
-        "macros": {
-          "protein": 25,
-          "carbs": 45,
-          "fat": 18
-        },
-        "micros": {
-          "vitamin_D": 2,
-          "fiber": 4,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Eggs",
-            "amount": "2"
-          },
-          {
-            "name": "Spinach",
-            "amount": "30g"
-          },
-          {
-            "name": "Mushrooms",
-            "amount": "50g"
-          },
-          {
-            "name": "Whole grain bread",
-            "amount": "1 slice"
-          }
-        ],
-        "instructions": "Cook omelette with veggies; serve with toast.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Greek Yogurt with Honey",
-        "calories": 200,
-        "macros": {
-          "protein": 12,
-          "carbs": 22,
-          "fat": 6
-        },
-        "micros": {
-          "calcium": 150,
-          "vitamin_C": 1,
-          "potassium": 200
-        },
-        "ingredients": [
-          {
-            "name": "Greek yogurt",
-            "amount": "150g"
-          },
-          {
-            "name": "Honey",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Drizzle honey over yogurt.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Veggie Pasta with Pesto",
-        "calories": 500,
-        "macros": {
-          "protein": 18,
-          "carbs": 60,
-          "fat": 20
-        },
-        "micros": {
-          "fiber": 6,
-          "vitamin_A": 500,
-          "vitamin_C": 40
-        },
-        "ingredients": [
-          {
-            "name": "Whole grain pasta",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Pesto sauce",
-            "amount": "50g"
-          },
-          {
-            "name": "Cherry tomatoes",
-            "amount": "50g"
-          }
-        ],
-        "instructions": "Toss pasta with pesto and tomatoes.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-19",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Chickpea and Vegetable Salad",
-        "calories": 450,
-        "macros": {
-          "protein": 20,
-          "carbs": 50,
-          "fat": 15
-        },
-        "micros": {
-          "fiber": 12,
-          "vitamin_C": 30,
-          "iron": 3
-        },
-        "ingredients": [
-          {
-            "name": "Cooked chickpeas",
-            "amount": "100g"
-          },
-          {
-            "name": "Cucumber",
-            "amount": "50g"
-          },
-          {
-            "name": "Tomato",
-            "amount": "60g"
-          },
-          {
-            "name": "Bell pepper",
-            "amount": "50g"
-          },
-          {
-            "name": "Olive oil",
-            "amount": "1 tbsp"
-          },
-          {
-            "name": "Lemon juice",
-            "amount": "1 tbsp"
-          },
-          {
-            "name": "Parsley",
-            "amount": "5g"
-          }
-        ],
-        "instructions": "Combine all ingredients in a bowl and toss.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Greek Yogurt with Berries & Almonds",
-        "calories": 200,
-        "macros": {
-          "protein": 12,
-          "carbs": 20,
-          "fat": 8
-        },
-        "micros": {
-          "calcium": 150,
-          "vitamin_C": 20,
-          "magnesium": 50
-        },
-        "ingredients": [
-          {
-            "name": "Greek yogurt",
-            "amount": "150g"
-          },
-          {
-            "name": "Mixed berries",
-            "amount": "100g"
-          },
-          {
-            "name": "Almonds",
-            "amount": "10g"
-          }
-        ],
-        "instructions": "Top yogurt with berries and almonds.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Grilled Salmon with Quinoa & Broccoli",
-        "calories": 500,
-        "macros": {
-          "protein": 35,
-          "carbs": 45,
-          "fat": 18
-        },
-        "micros": {
-          "omega_3": 2000,
-          "vitamin_C": 60,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Salmon fillet",
-            "amount": "120g"
-          },
-          {
-            "name": "Quinoa",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Broccoli",
-            "amount": "100g"
-          },
-          {
-            "name": "Olive oil",
-            "amount": "1 tsp"
-          }
-        ],
-        "instructions": "Grill salmon; serve with steamed broccoli and quinoa; drizzle with olive oil.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-20",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Turkey & Avocado Whole Wheat Wrap",
-        "calories": 450,
-        "macros": {
-          "protein": 30,
-          "carbs": 45,
-          "fat": 15
-        },
-        "micros": {
-          "fiber": 7,
-          "vitamin_E": 3,
-          "potassium": 450
-        },
-        "ingredients": [
-          {
-            "name": "Whole wheat tortilla",
-            "amount": "1"
-          },
-          {
-            "name": "Turkey breast slices",
-            "amount": "100g"
-          },
-          {
-            "name": "Avocado",
-            "amount": "50g"
-          },
-          {
-            "name": "Lettuce",
-            "amount": "30g"
-          },
-          {
-            "name": "Tomato",
-            "amount": "50g"
-          }
-        ],
-        "instructions": "Assemble wrap with turkey, avocado, lettuce, and tomato.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Apple with Peanut Butter",
-        "calories": 200,
-        "macros": {
-          "protein": 4,
-          "carbs": 28,
-          "fat": 10
-        },
-        "micros": {
-          "fiber": 4,
-          "vitamin_C": 5,
-          "magnesium": 10
-        },
-        "ingredients": [
-          {
-            "name": "Apple",
-            "amount": "1 medium"
-          },
-          {
-            "name": "Peanut butter",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Slice apple and serve with peanut butter.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Beef Stir-Fry with Vegetables",
-        "calories": 500,
-        "macros": {
-          "protein": 30,
-          "carbs": 50,
-          "fat": 16
-        },
-        "micros": {
-          "iron": 3,
-          "vitamin_A": 800,
-          "vitamin_C": 40
-        },
-        "ingredients": [
-          {
-            "name": "Lean beef strips",
-            "amount": "150g"
-          },
-          {
-            "name": "Mixed stir-fry veggies",
-            "amount": "200g"
-          },
-          {
-            "name": "Brown rice",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Soy sauce",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Stir-fry beef and veggies; serve over brown rice.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-21",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Quinoa & Black Bean Bowl",
-        "calories": 450,
-        "macros": {
-          "protein": 18,
-          "carbs": 60,
-          "fat": 12
-        },
-        "micros": {
-          "fiber": 10,
-          "iron": 4,
-          "magnesium": 120
-        },
-        "ingredients": [
-          {
-            "name": "Quinoa",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Black beans",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Corn",
-            "amount": "50g"
-          },
-          {
-            "name": "Avocado",
-            "amount": "50g"
-          },
-          {
-            "name": "Lime juice",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Combine ingredients in a bowl and season with lime juice.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Carrot Sticks & Hummus",
-        "calories": 200,
-        "macros": {
-          "protein": 5,
-          "carbs": 22,
-          "fat": 10
-        },
-        "micros": {
-          "vitamin_A": 600,
-          "fiber": 6,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Carrot sticks",
-            "amount": "100g"
-          },
-          {
-            "name": "Hummus",
-            "amount": "40g"
-          }
-        ],
-        "instructions": "Dip carrot sticks in hummus.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Baked Chicken Breast with Sweet Potato & Green Beans",
-        "calories": 500,
-        "macros": {
-          "protein": 40,
-          "carbs": 45,
-          "fat": 15
-        },
-        "micros": {
-          "vitamin_C": 20,
-          "iron": 2,
-          "calcium": 30
-        },
-        "ingredients": [
-          {
-            "name": "Chicken breast",
-            "amount": "120g"
-          },
-          {
-            "name": "Sweet potato",
-            "amount": "150g"
-          },
-          {
-            "name": "Green beans",
-            "amount": "100g"
-          },
-          {
-            "name": "Olive oil",
-            "amount": "1 tsp"
-          }
-        ],
-        "instructions": "Bake chicken and sweet potato; steam green beans; serve together.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-22",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Lentil Soup with Spinach",
-        "calories": 450,
-        "macros": {
-          "protein": 25,
-          "carbs": 55,
-          "fat": 10
-        },
-        "micros": {
-          "fiber": 15,
-          "vitamin_C": 25,
-          "iron": 4
-        },
-        "ingredients": [
-          {
-            "name": "Red lentils",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Spinach",
-            "amount": "50g"
-          },
-          {
-            "name": "Carrot",
-            "amount": "50g"
-          },
-          {
-            "name": "Onion",
-            "amount": "30g"
-          },
-          {
-            "name": "Vegetable stock",
-            "amount": "300ml"
-          }
-        ],
-        "instructions": "Cook all ingredients until tender; blend lightly.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Protein Smoothie",
-        "calories": 200,
-        "macros": {
-          "protein": 20,
-          "carbs": 20,
-          "fat": 4
-        },
-        "micros": {
-          "vitamin_C": 30,
-          "potassium": 400,
-          "magnesium": 50
-        },
-        "ingredients": [
-          {
-            "name": "Banana",
-            "amount": "1 small"
-          },
-          {
-            "name": "Protein powder",
-            "amount": "1 scoop"
-          },
-          {
-            "name": "Almond milk",
-            "amount": "200ml"
-          }
-        ],
-        "instructions": "Blend all ingredients until smooth.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Tofu Stir-Fry with Vegetables",
-        "calories": 500,
-        "macros": {
-          "protein": 20,
-          "carbs": 60,
-          "fat": 18
-        },
-        "micros": {
-          "fiber": 8,
-          "calcium": 250,
-          "iron": 3
-        },
-        "ingredients": [
-          {
-            "name": "Firm tofu",
-            "amount": "150g"
-          },
-          {
-            "name": "Mixed stir-fry veggies",
-            "amount": "200g"
-          },
-          {
-            "name": "Brown rice",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Soy sauce",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Stir-fry tofu and veggies; serve over rice.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-23",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Tuna Salad Sandwich",
-        "calories": 450,
-        "macros": {
-          "protein": 30,
-          "carbs": 45,
-          "fat": 15
-        },
-        "micros": {
-          "omega_3": 1000,
-          "vitamin_A": 500,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Canned tuna in water",
-            "amount": "100g"
-          },
-          {
-            "name": "Whole grain bread",
-            "amount": "2 slices"
-          },
-          {
-            "name": "Lettuce",
-            "amount": "30g"
-          },
-          {
-            "name": "Greek yogurt",
-            "amount": "2 tbsp"
-          }
-        ],
-        "instructions": "Mix tuna with yogurt; assemble sandwich with lettuce.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Cottage Cheese with Pineapple",
-        "calories": 200,
-        "macros": {
-          "protein": 15,
-          "carbs": 20,
-          "fat": 6
-        },
-        "micros": {
-          "calcium": 150,
-          "vitamin_C": 15,
-          "phosphorus": 200
-        },
-        "ingredients": [
-          {
-            "name": "Low-fat cottage cheese",
-            "amount": "150g"
-          },
-          {
-            "name": "Pineapple chunks",
-            "amount": "80g"
-          }
-        ],
-        "instructions": "Top cottage cheese with pineapple.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Baked Cod with Roasted Vegetables",
-        "calories": 500,
-        "macros": {
-          "protein": 35,
-          "carbs": 50,
-          "fat": 15
-        },
-        "micros": {
-          "omega_3": 500,
-          "vitamin_C": 50,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Cod fillet",
-            "amount": "120g"
-          },
-          {
-            "name": "Mixed veggies (zucchini, bell pepper)",
-            "amount": "200g"
-          },
-          {
-            "name": "Olive oil",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Bake cod and veggies with olive oil until cooked.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-24",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Chicken Caesar Salad",
-        "calories": 450,
-        "macros": {
-          "protein": 35,
-          "carbs": 20,
-          "fat": 22
-        },
-        "micros": {
-          "vitamin_A": 800,
-          "calcium": 100,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Grilled chicken breast",
-            "amount": "120g"
-          },
-          {
-            "name": "Romaine lettuce",
-            "amount": "100g"
-          },
-          {
-            "name": "Parmesan",
-            "amount": "20g"
-          },
-          {
-            "name": "Caesar dressing",
-            "amount": "2 tbsp"
-          }
-        ],
-        "instructions": "Toss lettuce, chicken, cheese, and dressing together.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Mixed Nuts & Dried Fruit",
-        "calories": 200,
-        "macros": {
-          "protein": 6,
-          "carbs": 18,
-          "fat": 12
-        },
-        "micros": {
-          "magnesium": 80,
-          "vitamin_E": 2,
-          "zinc": 1
-        },
-        "ingredients": [
-          {
-            "name": "Mixed nuts",
-            "amount": "20g"
-          },
-          {
-            "name": "Dried apricots",
-            "amount": "20g"
-          }
-        ],
-        "instructions": "Mix nuts and dried fruit.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Turkey Chili",
-        "calories": 500,
-        "macros": {
-          "protein": 30,
-          "carbs": 45,
-          "fat": 18
-        },
-        "micros": {
-          "fiber": 10,
-          "vitamin_C": 40,
-          "iron": 3
-        },
-        "ingredients": [
-          {
-            "name": "Ground turkey",
-            "amount": "120g"
-          },
-          {
-            "name": "Kidney beans",
-            "amount": "100g"
-          },
-          {
-            "name": "Tomato sauce",
-            "amount": "150ml"
-          },
-          {
-            "name": "Onion",
-            "amount": "30g"
-          },
-          {
-            "name": "Chili spices",
-            "amount": "to taste"
-          }
-        ],
-        "instructions": "Cook turkey with spices; add beans and sauce; simmer.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-25",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Veggie Omelette & Whole Grain Toast",
-        "calories": 450,
-        "macros": {
-          "protein": 25,
-          "carbs": 45,
-          "fat": 18
-        },
-        "micros": {
-          "vitamin_D": 2,
-          "fiber": 4,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Eggs",
-            "amount": "2"
-          },
-          {
-            "name": "Spinach",
-            "amount": "30g"
-          },
-          {
-            "name": "Mushrooms",
-            "amount": "50g"
-          },
-          {
-            "name": "Whole grain bread",
-            "amount": "1 slice"
-          }
-        ],
-        "instructions": "Cook omelette with veggies; serve with toast.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Greek Yogurt with Honey",
-        "calories": 200,
-        "macros": {
-          "protein": 12,
-          "carbs": 22,
-          "fat": 6
-        },
-        "micros": {
-          "calcium": 150,
-          "vitamin_C": 1,
-          "potassium": 200
-        },
-        "ingredients": [
-          {
-            "name": "Greek yogurt",
-            "amount": "150g"
-          },
-          {
-            "name": "Honey",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Drizzle honey over yogurt.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Veggie Pasta with Pesto",
-        "calories": 500,
-        "macros": {
-          "protein": 18,
-          "carbs": 60,
-          "fat": 20
-        },
-        "micros": {
-          "fiber": 6,
-          "vitamin_A": 500,
-          "vitamin_C": 40
-        },
-        "ingredients": [
-          {
-            "name": "Whole grain pasta",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Pesto sauce",
-            "amount": "50g"
-          },
-          {
-            "name": "Cherry tomatoes",
-            "amount": "50g"
-          }
-        ],
-        "instructions": "Toss pasta with pesto and tomatoes.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-26",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Chickpea and Vegetable Salad",
-        "calories": 450,
-        "macros": {
-          "protein": 20,
-          "carbs": 50,
-          "fat": 15
-        },
-        "micros": {
-          "fiber": 12,
-          "vitamin_C": 30,
-          "iron": 3
-        },
-        "ingredients": [
-          {
-            "name": "Cooked chickpeas",
-            "amount": "100g"
-          },
-          {
-            "name": "Cucumber",
-            "amount": "50g"
-          },
-          {
-            "name": "Tomato",
-            "amount": "60g"
-          },
-          {
-            "name": "Bell pepper",
-            "amount": "50g"
-          },
-          {
-            "name": "Olive oil",
-            "amount": "1 tbsp"
-          },
-          {
-            "name": "Lemon juice",
-            "amount": "1 tbsp"
-          },
-          {
-            "name": "Parsley",
-            "amount": "5g"
-          }
-        ],
-        "instructions": "Combine all ingredients in a bowl and toss.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Greek Yogurt with Berries & Almonds",
-        "calories": 200,
-        "macros": {
-          "protein": 12,
-          "carbs": 20,
-          "fat": 8
-        },
-        "micros": {
-          "calcium": 150,
-          "vitamin_C": 20,
-          "magnesium": 50
-        },
-        "ingredients": [
-          {
-            "name": "Greek yogurt",
-            "amount": "150g"
-          },
-          {
-            "name": "Mixed berries",
-            "amount": "100g"
-          },
-          {
-            "name": "Almonds",
-            "amount": "10g"
-          }
-        ],
-        "instructions": "Top yogurt with berries and almonds.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Grilled Salmon with Quinoa & Broccoli",
-        "calories": 500,
-        "macros": {
-          "protein": 35,
-          "carbs": 45,
-          "fat": 18
-        },
-        "micros": {
-          "omega_3": 2000,
-          "vitamin_C": 60,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Salmon fillet",
-            "amount": "120g"
-          },
-          {
-            "name": "Quinoa",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Broccoli",
-            "amount": "100g"
-          },
-          {
-            "name": "Olive oil",
-            "amount": "1 tsp"
-          }
-        ],
-        "instructions": "Grill salmon; serve with steamed broccoli and quinoa; drizzle with olive oil.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-27",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Turkey & Avocado Whole Wheat Wrap",
-        "calories": 450,
-        "macros": {
-          "protein": 30,
-          "carbs": 45,
-          "fat": 15
-        },
-        "micros": {
-          "fiber": 7,
-          "vitamin_E": 3,
-          "potassium": 450
-        },
-        "ingredients": [
-          {
-            "name": "Whole wheat tortilla",
-            "amount": "1"
-          },
-          {
-            "name": "Turkey breast slices",
-            "amount": "100g"
-          },
-          {
-            "name": "Avocado",
-            "amount": "50g"
-          },
-          {
-            "name": "Lettuce",
-            "amount": "30g"
-          },
-          {
-            "name": "Tomato",
-            "amount": "50g"
-          }
-        ],
-        "instructions": "Assemble wrap with turkey, avocado, lettuce, and tomato.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Apple with Peanut Butter",
-        "calories": 200,
-        "macros": {
-          "protein": 4,
-          "carbs": 28,
-          "fat": 10
-        },
-        "micros": {
-          "fiber": 4,
-          "vitamin_C": 5,
-          "magnesium": 10
-        },
-        "ingredients": [
-          {
-            "name": "Apple",
-            "amount": "1 medium"
-          },
-          {
-            "name": "Peanut butter",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Slice apple and serve with peanut butter.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Beef Stir-Fry with Vegetables",
-        "calories": 500,
-        "macros": {
-          "protein": 30,
-          "carbs": 50,
-          "fat": 16
-        },
-        "micros": {
-          "iron": 3,
-          "vitamin_A": 800,
-          "vitamin_C": 40
-        },
-        "ingredients": [
-          {
-            "name": "Lean beef strips",
-            "amount": "150g"
-          },
-          {
-            "name": "Mixed stir-fry veggies",
-            "amount": "200g"
-          },
-          {
-            "name": "Brown rice",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Soy sauce",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Stir-fry beef and veggies; serve over brown rice.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-28",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Quinoa & Black Bean Bowl",
-        "calories": 450,
-        "macros": {
-          "protein": 18,
-          "carbs": 60,
-          "fat": 12
-        },
-        "micros": {
-          "fiber": 10,
-          "iron": 4,
-          "magnesium": 120
-        },
-        "ingredients": [
-          {
-            "name": "Quinoa",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Black beans",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Corn",
-            "amount": "50g"
-          },
-          {
-            "name": "Avocado",
-            "amount": "50g"
-          },
-          {
-            "name": "Lime juice",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Combine ingredients in a bowl and season with lime juice.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Carrot Sticks & Hummus",
-        "calories": 200,
-        "macros": {
-          "protein": 5,
-          "carbs": 22,
-          "fat": 10
-        },
-        "micros": {
-          "vitamin_A": 600,
-          "fiber": 6,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Carrot sticks",
-            "amount": "100g"
-          },
-          {
-            "name": "Hummus",
-            "amount": "40g"
-          }
-        ],
-        "instructions": "Dip carrot sticks in hummus.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Baked Chicken Breast with Sweet Potato & Green Beans",
-        "calories": 500,
-        "macros": {
-          "protein": 40,
-          "carbs": 45,
-          "fat": 15
-        },
-        "micros": {
-          "vitamin_C": 20,
-          "iron": 2,
-          "calcium": 30
-        },
-        "ingredients": [
-          {
-            "name": "Chicken breast",
-            "amount": "120g"
-          },
-          {
-            "name": "Sweet potato",
-            "amount": "150g"
-          },
-          {
-            "name": "Green beans",
-            "amount": "100g"
-          },
-          {
-            "name": "Olive oil",
-            "amount": "1 tsp"
-          }
-        ],
-        "instructions": "Bake chicken and sweet potato; steam green beans; serve together.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-29",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Lentil Soup with Spinach",
-        "calories": 450,
-        "macros": {
-          "protein": 25,
-          "carbs": 55,
-          "fat": 10
-        },
-        "micros": {
-          "fiber": 15,
-          "vitamin_C": 25,
-          "iron": 4
-        },
-        "ingredients": [
-          {
-            "name": "Red lentils",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Spinach",
-            "amount": "50g"
-          },
-          {
-            "name": "Carrot",
-            "amount": "50g"
-          },
-          {
-            "name": "Onion",
-            "amount": "30g"
-          },
-          {
-            "name": "Vegetable stock",
-            "amount": "300ml"
-          }
-        ],
-        "instructions": "Cook all ingredients until tender; blend lightly.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Protein Smoothie",
-        "calories": 200,
-        "macros": {
-          "protein": 20,
-          "carbs": 20,
-          "fat": 4
-        },
-        "micros": {
-          "vitamin_C": 30,
-          "potassium": 400,
-          "magnesium": 50
-        },
-        "ingredients": [
-          {
-            "name": "Banana",
-            "amount": "1 small"
-          },
-          {
-            "name": "Protein powder",
-            "amount": "1 scoop"
-          },
-          {
-            "name": "Almond milk",
-            "amount": "200ml"
-          }
-        ],
-        "instructions": "Blend all ingredients until smooth.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Tofu Stir-Fry with Vegetables",
-        "calories": 500,
-        "macros": {
-          "protein": 20,
-          "carbs": 60,
-          "fat": 18
-        },
-        "micros": {
-          "fiber": 8,
-          "calcium": 250,
-          "iron": 3
-        },
-        "ingredients": [
-          {
-            "name": "Firm tofu",
-            "amount": "150g"
-          },
-          {
-            "name": "Mixed stir-fry veggies",
-            "amount": "200g"
-          },
-          {
-            "name": "Brown rice",
-            "amount": "100g cooked"
-          },
-          {
-            "name": "Soy sauce",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Stir-fry tofu and veggies; serve over rice.",
-        "name": "Dinner"
-      }
-    ]
-  },
-  {
-    "date": "2025-05-30",
-    "meals": [
-      {
-        "time": "12:00",
-        "title": "Tuna Salad Sandwich",
-        "calories": 450,
-        "macros": {
-          "protein": 30,
-          "carbs": 45,
-          "fat": 15
-        },
-        "micros": {
-          "omega_3": 1000,
-          "vitamin_A": 500,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Canned tuna in water",
-            "amount": "100g"
-          },
-          {
-            "name": "Whole grain bread",
-            "amount": "2 slices"
-          },
-          {
-            "name": "Lettuce",
-            "amount": "30g"
-          },
-          {
-            "name": "Greek yogurt",
-            "amount": "2 tbsp"
-          }
-        ],
-        "instructions": "Mix tuna with yogurt; assemble sandwich with lettuce.",
-        "name": "Lunch"
-      },
-      {
-        "time": "15:00",
-        "title": "Cottage Cheese with Pineapple",
-        "calories": 200,
-        "macros": {
-          "protein": 15,
-          "carbs": 20,
-          "fat": 6
-        },
-        "micros": {
-          "calcium": 150,
-          "vitamin_C": 15,
-          "phosphorus": 200
-        },
-        "ingredients": [
-          {
-            "name": "Low-fat cottage cheese",
-            "amount": "150g"
-          },
-          {
-            "name": "Pineapple chunks",
-            "amount": "80g"
-          }
-        ],
-        "instructions": "Top cottage cheese with pineapple.",
-        "name": "Snack"
-      },
-      {
-        "time": "17:30",
-        "title": "Baked Cod with Roasted Vegetables",
-        "calories": 500,
-        "macros": {
-          "protein": 35,
-          "carbs": 50,
-          "fat": 15
-        },
-        "micros": {
-          "omega_3": 500,
-          "vitamin_C": 50,
-          "iron": 2
-        },
-        "ingredients": [
-          {
-            "name": "Cod fillet",
-            "amount": "120g"
-          },
-          {
-            "name": "Mixed veggies (zucchini, bell pepper)",
-            "amount": "200g"
-          },
-          {
-            "name": "Olive oil",
-            "amount": "1 tbsp"
-          }
-        ],
-        "instructions": "Bake cod and veggies with olive oil until cooked.",
-        "name": "Dinner"
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
       }
     ]
   }
