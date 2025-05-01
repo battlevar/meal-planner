@@ -1,4 +1,6 @@
- 
+from random import shuffle
+
+# Define 14 unique healthy lunches
 unique_lunches = [
     {
         "title": "Kikärtssallad med grönsaker",
@@ -95,50 +97,111 @@ unique_lunches = [
         "instructions": "Ugnsbaka allt och servera varmt."
     },
     {
-        "title": "Bulgursallad med grillad zucchini",
+        "title": "Vegetarisk lasagne med spenat",
         "ingredients": [
-            {"name": "Bulgur", "amount": "70g"},
-            {"name": "Zucchini", "amount": "100g"},
-            {"name": "Tomat", "amount": "50g"},
-            {"name": "Basilika", "amount": "1 msk"}
+            {"name": "Lasagneplattor", "amount": "70g"},
+            {"name": "Spenat", "amount": "50g"},
+            {"name": "Tomatsås", "amount": "100g"},
+            {"name": "Riven ost", "amount": "30g"}
         ],
         "calories": 450,
-        "instructions": "Grilla zucchini och blanda med bulgursallad."
+        "instructions": "Lägg lager och baka i ugn i 25 min."
     },
     {
-        "title": "Pastasallad med bönor och oliver",
+        "title": "Nudelsallad med sesam och grönsaker",
         "ingredients": [
-            {"name": "Fullkornspasta", "amount": "70g"},
-            {"name": "Svarta bönor", "amount": "80g"},
-            {"name": "Oliver", "amount": "10g"},
-            {"name": "Ruccola", "amount": "30g"}
-        ],
-        "calories": 450,
-        "instructions": "Blanda alla ingredienser och servera kall."
-    },
-    {
-        "title": "Quinoabowl med edamame och rödkål",
-        "ingredients": [
-            {"name": "Quinoa", "amount": "80g"},
-            {"name": "Edamame", "amount": "60g"},
+            {"name": "Äggnudlar", "amount": "70g"},
             {"name": "Rödkål", "amount": "50g"},
-            {"name": "Sesamolja", "amount": "1 tsk"}
+            {"name": "Morot", "amount": "50g"},
+            {"name": "Sesamfrön", "amount": "1 msk"},
+            {"name": "Sojasås", "amount": "1 msk"}
         ],
         "calories": 450,
-        "instructions": "Ångkoka edamame och rödkål, blanda med quinoa."
+        "instructions": "Blanda kokta nudlar med grönsaker och dressing."
     },
     {
-        "title": "Kryddig morotssoppa med linser",
+        "title": "Matig sallad med linser och fetaost",
         "ingredients": [
-            {"name": "Morot", "amount": "100g"},
-            {"name": "Röda linser", "amount": "50g"},
+            {"name": "Kokta linser", "amount": "100g"},
+            {"name": "Fetaost", "amount": "30g"},
+            {"name": "Tomat", "amount": "60g"},
+            {"name": "Sallad", "amount": "30g"},
+            {"name": "Olivolja", "amount": "1 msk"}
+        ],
+        "calories": 450,
+        "instructions": "Blanda alla ingredienser och servera kallt."
+    },
+    {
+        "title": "Zucchiniplättar med yoghurtsås",
+        "ingredients": [
+            {"name": "Zucchini", "amount": "100g"},
+            {"name": "Ägg", "amount": "1"},
+            {"name": "Havregryn", "amount": "30g"},
+            {"name": "Naturell yoghurt", "amount": "1 dl"}
+        ],
+        "calories": 450,
+        "instructions": "Stek plättar och servera med kall sås."
+    },
+    {
+        "title": "Bönburgare med fullkornsbröd",
+        "ingredients": [
+            {"name": "Svarta bönor", "amount": "100g"},
             {"name": "Lök", "amount": "30g"},
-            {"name": "Spiskummin", "amount": "1 tsk"}
+            {"name": "Havregryn", "amount": "30g"},
+            {"name": "Fullkornsbröd", "amount": "1 bröd"}
         ],
         "calories": 450,
-        "instructions": "Koka soppa med linser och mixa slät."
-    },
-    {
-        "title": "Bakad potatis med bönröra",
-        "ingredients": [
-            {"name
+        "instructions": "Forma biffar och stek, servera i bröd."
+    }
+]
+
+# Shuffle and spread lunches over 30 days, avoiding close repetition
+spread_lunches = (unique_lunches * 3)[:30]
+shuffle(spread_lunches)
+
+# Use previously defined snacks and dinners
+days = []
+start_date = date(2025, 5, 1)
+
+for i in range(30):
+    lunch = spread_lunches[i]
+    snack = snacks[i % len(snacks)]
+    dinner = dinners[i % len(dinners)]
+
+    day_plan = {
+        "date": (start_date + timedelta(days=i)).isoformat(),
+        "meals": [
+            {
+                "name": "Lunch",
+                "title": lunch["title"],
+                "time": "12:00",
+                "calories": lunch["calories"],
+                "ingredients": lunch["ingredients"],
+                "instructions": lunch["instructions"]
+            },
+            {
+                "name": "Mellanmål",
+                "title": snack["title"],
+                "time": "15:00",
+                "calories": snack["calories"],
+                "ingredients": snack["ingredients"],
+                "instructions": snack["instructions"]
+            },
+            {
+                "name": "Middag",
+                "title": dinner["title"],
+                "time": "17:30",
+                "calories": dinner["calories"],
+                "ingredients": dinner["ingredients"],
+                "instructions": dinner["instructions"]
+            }
+        ]
+    }
+    days.append(day_plan)
+
+# Save to JSON
+json_path = "/mnt/data/meal_plan_30days_varied.json"
+with open(json_path, "w", encoding="utf-8") as f:
+    json.dump(days, f, ensure_ascii=False, indent=2)
+
+json_path
