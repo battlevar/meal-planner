@@ -1,7 +1,7 @@
-# Remove halloumi and regenerate the 30-day plan with unique meals for all meals
+from random import shuffle
 
-# Expanded meal pools (excluding tofu, keso, tonfisk, halloumi)
-all_lunches = [
+# Define 14 unique lunches (clean of undesired ingredients)
+unique_lunches = [
     {
         "title": "Kikärtssallad med grönsaker",
         "ingredients": [
@@ -95,120 +95,52 @@ all_lunches = [
         ],
         "calories": 450,
         "instructions": "Ugnsbaka allt och servera varmt."
-    }
-]
-
-snacks = [
-    {
-        "title": "Grekisk yoghurt med bär",
-        "ingredients": [
-            {"name": "Grekisk yoghurt", "amount": "150g"},
-            {"name": "Blandade bär", "amount": "100g"},
-            {"name": "Mandlar", "amount": "10g"}
-        ],
-        "calories": 200,
-        "instructions": "Toppa yoghurten med bär och mandlar."
     },
     {
-        "title": "Äpple med jordnötssmör",
+        "title": "Bulgursallad med grillad zucchini",
         "ingredients": [
-            {"name": "Äpple", "amount": "1"},
-            {"name": "Jordnötssmör", "amount": "1 msk"}
+            {"name": "Bulgur", "amount": "70g"},
+            {"name": "Zucchini", "amount": "100g"},
+            {"name": "Tomat", "amount": "50g"},
+            {"name": "Basilika", "amount": "1 msk"}
         ],
-        "calories": 200,
-        "instructions": "Skiva äpplet och servera med jordnötssmör."
+        "calories": 450,
+        "instructions": "Grilla zucchini och blanda med bulgursallad."
     },
     {
-        "title": "Knäckebröd med avokado",
+        "title": "Pastasallad med bönor och oliver",
         "ingredients": [
-            {"name": "Knäckebröd", "amount": "1 skiva"},
-            {"name": "Avokado", "amount": "50g"}
+            {"name": "Fullkornspasta", "amount": "70g"},
+            {"name": "Svarta bönor", "amount": "80g"},
+            {"name": "Oliver", "amount": "10g"},
+            {"name": "Ruccola", "amount": "30g"}
         ],
-        "calories": 200,
-        "instructions": "Bred avokado på knäckebrödet."
-    }
-]
-
-dinners = [
-    {
-        "title": "Lax med broccoli och quinoa",
-        "ingredients": [
-            {"name": "Laxfilé", "amount": "120g"},
-            {"name": "Quinoa", "amount": "100g"},
-            {"name": "Broccoli", "amount": "100g"},
-            {"name": "Olivolja", "amount": "1 tsk"}
-        ],
-        "calories": 500,
-        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
+        "calories": 450,
+        "instructions": "Blanda alla ingredienser och servera kall."
     },
     {
-        "title": "Biffwok med grönsaker",
+        "title": "Quinoabowl med edamame och rödkål",
         "ingredients": [
-            {"name": "Nötkött (strimlat)", "amount": "150g"},
-            {"name": "Wokgrönsaker", "amount": "200g"},
-            {"name": "Fullkornsris", "amount": "100g"},
-            {"name": "Sojasås", "amount": "1 msk"}
+            {"name": "Quinoa", "amount": "80g"},
+            {"name": "Edamame", "amount": "60g"},
+            {"name": "Rödkål", "amount": "50g"},
+            {"name": "Sesamolja", "amount": "1 tsk"}
         ],
-        "calories": 500,
-        "instructions": "Woka kött och grönsaker, servera med ris."
+        "calories": 450,
+        "instructions": "Ångkoka edamame och rödkål, blanda med quinoa."
     },
     {
-        "title": "Vegetarisk curry med ris",
+        "title": "Kryddig morotssoppa med linser",
         "ingredients": [
-            {"name": "Kikärtor", "amount": "100g"},
-            {"name": "Kokosmjölk", "amount": "1 dl"},
-            {"name": "Grön curry", "amount": "1 msk"},
-            {"name": "Basmatiris", "amount": "90g"}
+            {"name": "Morot", "amount": "100g"},
+            {"name": "Röda linser", "amount": "50g"},
+            {"name": "Lök", "amount": "30g"},
+            {"name": "Spiskummin", "amount": "1 tsk"}
         ],
-        "calories": 500,
-        "instructions": "Koka curry och servera med ris."
-    }
-]
-
-# Generate unique 30-day plan
-start_date = date(2025, 5, 1)
-days = []
-
-for i in range(30):
-    current_date = start_date + timedelta(days=i)
-    lunch = all_lunches[i % len(all_lunches)]
-    snack = snacks[i % len(snacks)]
-    dinner = dinners[i % len(dinners)]
-
-    day_plan = {
-        "date": current_date.isoformat(),
-        "meals": [
-            {
-                "name": "Lunch",
-                "title": lunch["title"],
-                "time": "12:00",
-                "calories": lunch["calories"],
-                "ingredients": lunch["ingredients"],
-                "instructions": lunch["instructions"]
-            },
-            {
-                "name": "Mellanmål",
-                "title": snack["title"],
-                "time": "15:00",
-                "calories": snack["calories"],
-                "ingredients": snack["ingredients"],
-                "instructions": snack["instructions"]
-            },
-            {
-                "name": "Middag",
-                "title": dinner["title"],
-                "time": "17:30",
-                "calories": dinner["calories"],
-                "ingredients": dinner["ingredients"],
-                "instructions": dinner["instructions"]
-            }
-        ]
-    }
-    days.append(day_plan)
-
-# Save updated JSON
-json_path = "/mnt/data/cleaned_unique_meal_plan.json"
-with open(json_path, "w", encoding="utf-8") as f:
-    json.dump(days, f, ensure_ascii=False, indent=2)
-
-json_path
+        "calories": 450,
+        "instructions": "Koka soppa med linser och mixa slät."
+    },
+    {
+        "title": "Bakad potatis med bönröra",
+        "ingredients": [
+            {"name
