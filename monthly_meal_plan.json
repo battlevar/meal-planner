@@ -1,6 +1,4 @@
-from random import shuffle
-
-# Define 14 unique lunches (clean of undesired ingredients)
+ 
 unique_lunches = [
     {
         "title": "Kikärtssallad med grönsaker",
