@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>30-dagars Måltidsplan</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+      background: #f0f2f5;
+      margin: 0; padding: 0;
+      display: flex; align-items: center; justify-content: center;
+      min-height: 100vh;
+    }
+    .card {
+      background: #fff;
+      width: 360px; max-width: 90vw;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 1.5em;
+      position: relative;
+    }
+    h1 {
+      text-align: center;
+      margin: 0 0 0.5em;
+      font-size: 1.2em;
+      color: #333;
+    }
+    .nav-btn {
+      position: absolute;
+      top: 1.5em;
+      background: none;
+      border: none;
+      font-size: 1.5em;
+      cursor: pointer;
+      color: #888;
+    }
+    #prevBtn { left: 1em; }
+    #nextBtn { right: 1em; }
+    .meal {
+      margin: 1em 0;
+    }
+    .meal-icon { font-size: 1.4em; vertical-align: middle; }
+    .meal-title {
+      font-weight: bold;
+      margin: 0 0.2em;
+      vertical-align: middle;
+    }
+    .meal-time { float: right; color: #666; }
+    .ingredients {
+      margin: 0.5em 0;
+      padding-left: 1em;
+      color: #555;
+    }
+    .instructions {
+      font-style: italic;
+      text-align: center;
+      margin-top: 0.5em;
+      color: #444;
+    }
+    .date-display {
+      text-align: center;
+      margin-top: 0.5em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <button id="prevBtn" class="nav-btn">&larr;</button>
+    <button id="nextBtn" class="nav-btn">&rarr;</button>
+    <h1 id="dayLabel">Dag X</h1>
+    <div id="mealsContainer"></div>
+    <div class="date-display" id="dateDisplay"></div>
+  </div>
+
+  <script>
+    // Ladda JSON och initiera
+    let mealPlans = [];
+    let currentIndex = 0;
+
+    fetch('monthly_meal_plan.json')
+      .then(res => res.json())
+      .then(data => {
+        mealPlans = data;
+        initIndex();
+        render();
+      })
+      .catch(err => console.error('Kunde inte ladda JSON:', err));
+
+    function initIndex() {
+      const today = new Date().toISOString().slice(0,10);
+      const idx = mealPlans.findIndex(d => d.date === today);
+      currentIndex = idx >= 0 ? idx : 0;
+    }
+
+    document.getElementById('prevBtn').addEventListener('click', () => {
+      if (currentIndex > 0) currentIndex--;
+      render();
+    });
+    document.getElementById('nextBtn').addEventListener('click', () => {
+      if (currentIndex < mealPlans.length - 1) currentIndex++;
+      render();
+    });
+
+    function render() {
+      const day = mealPlans[currentIndex];
+      const date = new Date(day.date);
+      const dayNames = ['Söndag','Måndag','Tisdag','Onsdag','Torsdag','Fredag','Lördag'];
+      document.getElementById('dayLabel').textContent = dayNames[date.getDay()];
+      document.getElementById('dateDisplay').textContent = day.date;
+
+      const container = document.getElementById('mealsContainer');
+      container.innerHTML = ''; // töm
+      day.meals.forEach(meal => {
+        const div = document.createElement('div');
+        div.className = 'meal';
+        let emoji = '';
+        if (meal.name.toLowerCase().includes('lunch')) emoji = '🥗';
+        else if (meal.name.toLowerCase().includes('snack') || meal.name.toLowerCase().includes('mellanmål')) emoji = '🍎';
+        else emoji = '🍽️';
+
+        div.innerHTML = `
+          <span class="meal-icon">${emoji}</span>
+          <span class="meal-title">${meal.name}: ${meal.title}</span>
+          <span class="meal-time">${meal.time}</span>
+          <ul class="ingredients">
+            ${meal.ingredients.map(i => `<li>${i.amount} ${i.name}</li>`).join('')}
+          </ul>
+          <div class="instructions">${meal.instructions}</div>
+        `;
+        container.appendChild(div);
+      });
+
+      // Disable knappar i ändar
+      document.getElementById('prevBtn').disabled = (currentIndex === 0);
+      document.getElementById('nextBtn').disabled = (currentIndex === mealPlans.length - 1);
+    }
+  </script>
+</body>
+</html>
