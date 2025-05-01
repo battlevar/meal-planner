@@ -1,204 +1,2286 @@
-unique_lunches = [
-    {
-        "title": "Kikärtssallad med grönsaker",
-        "ingredients": [
-            {"name": "Kikärtor (kokta)", "amount": "100g"},
-            {"name": "Gurka", "amount": "50g"},
-            {"name": "Tomat", "amount": "60g"},
-            {"name": "Paprika", "amount": "50g"},
-            {"name": "Olivolja", "amount": "1 msk"},
-            {"name": "Citronsaft", "amount": "1 msk"}
-        ],
-        "calories": 450,
-        "instructions": "Blanda allt i en skål och rör om."
-    },
-    {
-        "title": "Kycklingsallad med quinoa",
-        "ingredients": [
-            {"name": "Grillad kyckling", "amount": "100g"},
-            {"name": "Quinoa", "amount": "80g"},
-            {"name": "Spenat", "amount": "30g"},
-            {"name": "Paprika", "amount": "40g"},
-            {"name": "Citronjuice", "amount": "1 msk"}
-        ],
-        "calories": 450,
-        "instructions": "Blanda ingredienser och servera med citronjuice."
-    },
-    {
-        "title": "Fullkornspasta med tomatsås och linser",
-        "ingredients": [
-            {"name": "Fullkornspasta", "amount": "75g"},
-            {"name": "Krossade tomater", "amount": "100g"},
-            {"name": "Röda linser", "amount": "50g"},
-            {"name": "Vitlök", "amount": "1 klyfta"},
-            {"name": "Oregano", "amount": "1 tsk"}
-        ],
-        "calories": 450,
-        "instructions": "Koka linser och pasta, blanda med tomatsås."
-    },
-    {
-        "title": "Sötpotatis- och svartbönbowl",
-        "ingredients": [
-            {"name": "Sötpotatis", "amount": "100g"},
-            {"name": "Svarta bönor", "amount": "80g"},
-            {"name": "Majs", "amount": "40g"},
-            {"name": "Limejuice", "amount": "1 msk"},
-            {"name": "Koriander", "amount": "1 msk"}
-        ],
-        "calories": 450,
-        "instructions": "Rosta sötpotatis, blanda med övriga ingredienser."
-    },
-    {
-        "title": "Rödbetsbiffar med bulgursallad",
-        "ingredients": [
-            {"name": "Rödbetor", "amount": "100g"},
-            {"name": "Ägg", "amount": "1"},
-            {"name": "Havregryn", "amount": "30g"},
-            {"name": "Bulgur", "amount": "70g"},
-            {"name": "Färsk persilja", "amount": "1 msk"}
-        ],
-        "calories": 450,
-        "instructions": "Stek biffar och servera med bulgursallad."
-    },
-    {
-        "title": "Falafel med couscous och tahinisås",
-        "ingredients": [
-            {"name": "Falafel", "amount": "100g"},
-            {"name": "Couscous", "amount": "70g"},
-            {"name": "Gurka", "amount": "50g"},
-            {"name": "Tahinisås", "amount": "1 msk"}
-        ],
-        "calories": 450,
-        "instructions": "Servera falafel med couscous och tahinisås."
-    },
-    {
-        "title": "Grön ärtsoppa med rågbröd",
-        "ingredients": [
-            {"name": "Gröna ärtor", "amount": "150g"},
-            {"name": "Lök", "amount": "30g"},
-            {"name": "Grönsaksbuljong", "amount": "2 dl"},
-            {"name": "Rågbröd", "amount": "1 skiva"}
-        ],
-        "calories": 450,
-        "instructions": "Koka soppa på ärtor och servera med rågbröd."
-    },
-    {
-        "title": "Ugnsbakad rotsaksgratäng",
-        "ingredients": [
-            {"name": "Potatis", "amount": "100g"},
-            {"name": "Palsternacka", "amount": "80g"},
-            {"name": "Morot", "amount": "70g"},
-            {"name": "Olivolja", "amount": "1 msk"}
-        ],
-        "calories": 450,
-        "instructions": "Ugnsbaka allt och servera varmt."
-    },
-    {
-        "title": "Vegetarisk lasagne med spenat",
-        "ingredients": [
-            {"name": "Lasagneplattor", "amount": "70g"},
-            {"name": "Spenat", "amount": "50g"},
-            {"name": "Tomatsås", "amount": "100g"},
-            {"name": "Riven ost", "amount": "30g"}
-        ],
-        "calories": 450,
-        "instructions": "Lägg lager och baka i ugn i 25 min."
-    },
-    {
-        "title": "Nudelsallad med sesam och grönsaker",
-        "ingredients": [
-            {"name": "Äggnudlar", "amount": "70g"},
-            {"name": "Rödkål", "amount": "50g"},
-            {"name": "Morot", "amount": "50g"},
-            {"name": "Sesamfrön", "amount": "1 msk"},
-            {"name": "Sojasås", "amount": "1 msk"}
-        ],
-        "calories": 450,
-        "instructions": "Blanda kokta nudlar med grönsaker och dressing."
-    },
-    {
-        "title": "Matig sallad med linser och fetaost",
-        "ingredients": [
-            {"name": "Kokta linser", "amount": "100g"},
-            {"name": "Fetaost", "amount": "30g"},
-            {"name": "Tomat", "amount": "60g"},
-            {"name": "Sallad", "amount": "30g"},
-            {"name": "Olivolja", "amount": "1 msk"}
-        ],
-        "calories": 450,
-        "instructions": "Blanda alla ingredienser och servera kallt."
-    },
-    {
-        "title": "Zucchiniplättar med yoghurtsås",
-        "ingredients": [
-            {"name": "Zucchini", "amount": "100g"},
-            {"name": "Ägg", "amount": "1"},
-            {"name": "Havregryn", "amount": "30g"},
-            {"name": "Naturell yoghurt", "amount": "1 dl"}
-        ],
-        "calories": 450,
-        "instructions": "Stek plättar och servera med kall sås."
-    },
-    {
+[
+  {
+    "date": "2025-05-01",
+    "meals": [
+      {
+        "name": "Lunch",
         "title": "Bönburgare med fullkornsbröd",
-        "ingredients": [
-            {"name": "Svarta bönor", "amount": "100g"},
-            {"name": "Lök", "amount": "30g"},
-            {"name": "Havregryn", "amount": "30g"},
-            {"name": "Fullkornsbröd", "amount": "1 bröd"}
-        ],
+        "time": "12:00",
         "calories": 450,
+        "ingredients": [
+          {
+            "name": "Svarta bönor",
+            "amount": "100g"
+          },
+          {
+            "name": "Lök",
+            "amount": "30g"
+          },
+          {
+            "name": "Havregryn",
+            "amount": "30g"
+          },
+          {
+            "name": "Fullkornsbröd",
+            "amount": "1 bröd"
+          }
+        ],
         "instructions": "Forma biffar och stek, servera i bröd."
-    }
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Grekisk yoghurt",
+            "amount": "150g"
+          },
+          {
+            "name": "Blandade bär",
+            "amount": "100g"
+          },
+          {
+            "name": "Mandlar",
+            "amount": "10g"
+          }
+        ],
+        "instructions": "Toppa yoghurten med bär och mandlar."
+      },
+      {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Laxfilé",
+            "amount": "120g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "100g"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-02",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Matig sallad med linser och fetaost",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Kokta linser",
+            "amount": "100g"
+          },
+          {
+            "name": "Fetaost",
+            "amount": "30g"
+          },
+          {
+            "name": "Tomat",
+            "amount": "60g"
+          },
+          {
+            "name": "Sallad",
+            "amount": "30g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Blanda alla ingredienser och servera kallt."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Äpple med jordnötssmör",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Äpple",
+            "amount": "1"
+          },
+          {
+            "name": "Jordnötssmör",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Skiva äpplet och servera med jordnötssmör."
+      },
+      {
+        "name": "Middag",
+        "title": "Biffwok med grönsaker",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Nötkött (strimlat)",
+            "amount": "150g"
+          },
+          {
+            "name": "Wokgrönsaker",
+            "amount": "200g"
+          },
+          {
+            "name": "Fullkornsris",
+            "amount": "100g"
+          },
+          {
+            "name": "Sojasås",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Woka kött och grönsaker, servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-03",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Rödbetsbiffar med bulgursallad",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Rödbetor",
+            "amount": "100g"
+          },
+          {
+            "name": "Ägg",
+            "amount": "1"
+          },
+          {
+            "name": "Havregryn",
+            "amount": "30g"
+          },
+          {
+            "name": "Bulgur",
+            "amount": "70g"
+          },
+          {
+            "name": "Färsk persilja",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Stek biffar och servera med bulgursallad."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Knäckebröd med avokado",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Knäckebröd",
+            "amount": "1 skiva"
+          },
+          {
+            "name": "Avokado",
+            "amount": "50g"
+          }
+        ],
+        "instructions": "Bred avokado på knäckebrödet."
+      },
+      {
+        "name": "Middag",
+        "title": "Vegetarisk curry med ris",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Kikärtor",
+            "amount": "100g"
+          },
+          {
+            "name": "Kokosmjölk",
+            "amount": "1 dl"
+          },
+          {
+            "name": "Grön curry",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Basmatiris",
+            "amount": "90g"
+          }
+        ],
+        "instructions": "Koka curry och servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-04",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Fullkornspasta med tomatsås och linser",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Fullkornspasta",
+            "amount": "75g"
+          },
+          {
+            "name": "Krossade tomater",
+            "amount": "100g"
+          },
+          {
+            "name": "Röda linser",
+            "amount": "50g"
+          },
+          {
+            "name": "Vitlök",
+            "amount": "1 klyfta"
+          },
+          {
+            "name": "Oregano",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Koka linser och pasta, blanda med tomatsås."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Grekisk yoghurt",
+            "amount": "150g"
+          },
+          {
+            "name": "Blandade bär",
+            "amount": "100g"
+          },
+          {
+            "name": "Mandlar",
+            "amount": "10g"
+          }
+        ],
+        "instructions": "Toppa yoghurten med bär och mandlar."
+      },
+      {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Laxfilé",
+            "amount": "120g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "100g"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-05",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Falafel med couscous och tahinisås",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Falafel",
+            "amount": "100g"
+          },
+          {
+            "name": "Couscous",
+            "amount": "70g"
+          },
+          {
+            "name": "Gurka",
+            "amount": "50g"
+          },
+          {
+            "name": "Tahinisås",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Servera falafel med couscous och tahinisås."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Äpple med jordnötssmör",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Äpple",
+            "amount": "1"
+          },
+          {
+            "name": "Jordnötssmör",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Skiva äpplet och servera med jordnötssmör."
+      },
+      {
+        "name": "Middag",
+        "title": "Biffwok med grönsaker",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Nötkött (strimlat)",
+            "amount": "150g"
+          },
+          {
+            "name": "Wokgrönsaker",
+            "amount": "200g"
+          },
+          {
+            "name": "Fullkornsris",
+            "amount": "100g"
+          },
+          {
+            "name": "Sojasås",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Woka kött och grönsaker, servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-06",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Matig sallad med linser och fetaost",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Kokta linser",
+            "amount": "100g"
+          },
+          {
+            "name": "Fetaost",
+            "amount": "30g"
+          },
+          {
+            "name": "Tomat",
+            "amount": "60g"
+          },
+          {
+            "name": "Sallad",
+            "amount": "30g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Blanda alla ingredienser och servera kallt."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Knäckebröd med avokado",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Knäckebröd",
+            "amount": "1 skiva"
+          },
+          {
+            "name": "Avokado",
+            "amount": "50g"
+          }
+        ],
+        "instructions": "Bred avokado på knäckebrödet."
+      },
+      {
+        "name": "Middag",
+        "title": "Vegetarisk curry med ris",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Kikärtor",
+            "amount": "100g"
+          },
+          {
+            "name": "Kokosmjölk",
+            "amount": "1 dl"
+          },
+          {
+            "name": "Grön curry",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Basmatiris",
+            "amount": "90g"
+          }
+        ],
+        "instructions": "Koka curry och servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-07",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Sötpotatis- och svartbönbowl",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Sötpotatis",
+            "amount": "100g"
+          },
+          {
+            "name": "Svarta bönor",
+            "amount": "80g"
+          },
+          {
+            "name": "Majs",
+            "amount": "40g"
+          },
+          {
+            "name": "Limejuice",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Koriander",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Rosta sötpotatis, blanda med övriga ingredienser."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Grekisk yoghurt",
+            "amount": "150g"
+          },
+          {
+            "name": "Blandade bär",
+            "amount": "100g"
+          },
+          {
+            "name": "Mandlar",
+            "amount": "10g"
+          }
+        ],
+        "instructions": "Toppa yoghurten med bär och mandlar."
+      },
+      {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Laxfilé",
+            "amount": "120g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "100g"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-08",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Nudelsallad med sesam och grönsaker",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Äggnudlar",
+            "amount": "70g"
+          },
+          {
+            "name": "Rödkål",
+            "amount": "50g"
+          },
+          {
+            "name": "Morot",
+            "amount": "50g"
+          },
+          {
+            "name": "Sesamfrön",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Sojasås",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Blanda kokta nudlar med grönsaker och dressing."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Äpple med jordnötssmör",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Äpple",
+            "amount": "1"
+          },
+          {
+            "name": "Jordnötssmör",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Skiva äpplet och servera med jordnötssmör."
+      },
+      {
+        "name": "Middag",
+        "title": "Biffwok med grönsaker",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Nötkött (strimlat)",
+            "amount": "150g"
+          },
+          {
+            "name": "Wokgrönsaker",
+            "amount": "200g"
+          },
+          {
+            "name": "Fullkornsris",
+            "amount": "100g"
+          },
+          {
+            "name": "Sojasås",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Woka kött och grönsaker, servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-09",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Zucchiniplättar med yoghurtsås",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Zucchini",
+            "amount": "100g"
+          },
+          {
+            "name": "Ägg",
+            "amount": "1"
+          },
+          {
+            "name": "Havregryn",
+            "amount": "30g"
+          },
+          {
+            "name": "Naturell yoghurt",
+            "amount": "1 dl"
+          }
+        ],
+        "instructions": "Stek plättar och servera med kall sås."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Knäckebröd med avokado",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Knäckebröd",
+            "amount": "1 skiva"
+          },
+          {
+            "name": "Avokado",
+            "amount": "50g"
+          }
+        ],
+        "instructions": "Bred avokado på knäckebrödet."
+      },
+      {
+        "name": "Middag",
+        "title": "Vegetarisk curry med ris",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Kikärtor",
+            "amount": "100g"
+          },
+          {
+            "name": "Kokosmjölk",
+            "amount": "1 dl"
+          },
+          {
+            "name": "Grön curry",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Basmatiris",
+            "amount": "90g"
+          }
+        ],
+        "instructions": "Koka curry och servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-10",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Nudelsallad med sesam och grönsaker",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Äggnudlar",
+            "amount": "70g"
+          },
+          {
+            "name": "Rödkål",
+            "amount": "50g"
+          },
+          {
+            "name": "Morot",
+            "amount": "50g"
+          },
+          {
+            "name": "Sesamfrön",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Sojasås",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Blanda kokta nudlar med grönsaker och dressing."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Grekisk yoghurt",
+            "amount": "150g"
+          },
+          {
+            "name": "Blandade bär",
+            "amount": "100g"
+          },
+          {
+            "name": "Mandlar",
+            "amount": "10g"
+          }
+        ],
+        "instructions": "Toppa yoghurten med bär och mandlar."
+      },
+      {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Laxfilé",
+            "amount": "120g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "100g"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-11",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Sötpotatis- och svartbönbowl",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Sötpotatis",
+            "amount": "100g"
+          },
+          {
+            "name": "Svarta bönor",
+            "amount": "80g"
+          },
+          {
+            "name": "Majs",
+            "amount": "40g"
+          },
+          {
+            "name": "Limejuice",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Koriander",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Rosta sötpotatis, blanda med övriga ingredienser."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Äpple med jordnötssmör",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Äpple",
+            "amount": "1"
+          },
+          {
+            "name": "Jordnötssmör",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Skiva äpplet och servera med jordnötssmör."
+      },
+      {
+        "name": "Middag",
+        "title": "Biffwok med grönsaker",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Nötkött (strimlat)",
+            "amount": "150g"
+          },
+          {
+            "name": "Wokgrönsaker",
+            "amount": "200g"
+          },
+          {
+            "name": "Fullkornsris",
+            "amount": "100g"
+          },
+          {
+            "name": "Sojasås",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Woka kött och grönsaker, servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-12",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Kycklingsallad med quinoa",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Grillad kyckling",
+            "amount": "100g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "80g"
+          },
+          {
+            "name": "Spenat",
+            "amount": "30g"
+          },
+          {
+            "name": "Paprika",
+            "amount": "40g"
+          },
+          {
+            "name": "Citronjuice",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Blanda ingredienser och servera med citronjuice."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Knäckebröd med avokado",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Knäckebröd",
+            "amount": "1 skiva"
+          },
+          {
+            "name": "Avokado",
+            "amount": "50g"
+          }
+        ],
+        "instructions": "Bred avokado på knäckebrödet."
+      },
+      {
+        "name": "Middag",
+        "title": "Vegetarisk curry med ris",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Kikärtor",
+            "amount": "100g"
+          },
+          {
+            "name": "Kokosmjölk",
+            "amount": "1 dl"
+          },
+          {
+            "name": "Grön curry",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Basmatiris",
+            "amount": "90g"
+          }
+        ],
+        "instructions": "Koka curry och servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-13",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Kycklingsallad med quinoa",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Grillad kyckling",
+            "amount": "100g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "80g"
+          },
+          {
+            "name": "Spenat",
+            "amount": "30g"
+          },
+          {
+            "name": "Paprika",
+            "amount": "40g"
+          },
+          {
+            "name": "Citronjuice",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Blanda ingredienser och servera med citronjuice."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Grekisk yoghurt",
+            "amount": "150g"
+          },
+          {
+            "name": "Blandade bär",
+            "amount": "100g"
+          },
+          {
+            "name": "Mandlar",
+            "amount": "10g"
+          }
+        ],
+        "instructions": "Toppa yoghurten med bär och mandlar."
+      },
+      {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Laxfilé",
+            "amount": "120g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "100g"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-14",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Bönburgare med fullkornsbröd",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Svarta bönor",
+            "amount": "100g"
+          },
+          {
+            "name": "Lök",
+            "amount": "30g"
+          },
+          {
+            "name": "Havregryn",
+            "amount": "30g"
+          },
+          {
+            "name": "Fullkornsbröd",
+            "amount": "1 bröd"
+          }
+        ],
+        "instructions": "Forma biffar och stek, servera i bröd."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Äpple med jordnötssmör",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Äpple",
+            "amount": "1"
+          },
+          {
+            "name": "Jordnötssmör",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Skiva äpplet och servera med jordnötssmör."
+      },
+      {
+        "name": "Middag",
+        "title": "Biffwok med grönsaker",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Nötkött (strimlat)",
+            "amount": "150g"
+          },
+          {
+            "name": "Wokgrönsaker",
+            "amount": "200g"
+          },
+          {
+            "name": "Fullkornsris",
+            "amount": "100g"
+          },
+          {
+            "name": "Sojasås",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Woka kött och grönsaker, servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-15",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Vegetarisk lasagne med spenat",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Lasagneplattor",
+            "amount": "70g"
+          },
+          {
+            "name": "Spenat",
+            "amount": "50g"
+          },
+          {
+            "name": "Tomatsås",
+            "amount": "100g"
+          },
+          {
+            "name": "Riven ost",
+            "amount": "30g"
+          }
+        ],
+        "instructions": "Lägg lager och baka i ugn i 25 min."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Knäckebröd med avokado",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Knäckebröd",
+            "amount": "1 skiva"
+          },
+          {
+            "name": "Avokado",
+            "amount": "50g"
+          }
+        ],
+        "instructions": "Bred avokado på knäckebrödet."
+      },
+      {
+        "name": "Middag",
+        "title": "Vegetarisk curry med ris",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Kikärtor",
+            "amount": "100g"
+          },
+          {
+            "name": "Kokosmjölk",
+            "amount": "1 dl"
+          },
+          {
+            "name": "Grön curry",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Basmatiris",
+            "amount": "90g"
+          }
+        ],
+        "instructions": "Koka curry och servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-16",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Ugnsbakad rotsaksgratäng",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Potatis",
+            "amount": "100g"
+          },
+          {
+            "name": "Palsternacka",
+            "amount": "80g"
+          },
+          {
+            "name": "Morot",
+            "amount": "70g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Ugnsbaka allt och servera varmt."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Grekisk yoghurt",
+            "amount": "150g"
+          },
+          {
+            "name": "Blandade bär",
+            "amount": "100g"
+          },
+          {
+            "name": "Mandlar",
+            "amount": "10g"
+          }
+        ],
+        "instructions": "Toppa yoghurten med bär och mandlar."
+      },
+      {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Laxfilé",
+            "amount": "120g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "100g"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-17",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Sötpotatis- och svartbönbowl",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Sötpotatis",
+            "amount": "100g"
+          },
+          {
+            "name": "Svarta bönor",
+            "amount": "80g"
+          },
+          {
+            "name": "Majs",
+            "amount": "40g"
+          },
+          {
+            "name": "Limejuice",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Koriander",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Rosta sötpotatis, blanda med övriga ingredienser."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Äpple med jordnötssmör",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Äpple",
+            "amount": "1"
+          },
+          {
+            "name": "Jordnötssmör",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Skiva äpplet och servera med jordnötssmör."
+      },
+      {
+        "name": "Middag",
+        "title": "Biffwok med grönsaker",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Nötkött (strimlat)",
+            "amount": "150g"
+          },
+          {
+            "name": "Wokgrönsaker",
+            "amount": "200g"
+          },
+          {
+            "name": "Fullkornsris",
+            "amount": "100g"
+          },
+          {
+            "name": "Sojasås",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Woka kött och grönsaker, servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-18",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Kikärtssallad med grönsaker",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Kikärtor (kokta)",
+            "amount": "100g"
+          },
+          {
+            "name": "Gurka",
+            "amount": "50g"
+          },
+          {
+            "name": "Tomat",
+            "amount": "60g"
+          },
+          {
+            "name": "Paprika",
+            "amount": "50g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Citronsaft",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Blanda allt i en skål och rör om."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Knäckebröd med avokado",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Knäckebröd",
+            "amount": "1 skiva"
+          },
+          {
+            "name": "Avokado",
+            "amount": "50g"
+          }
+        ],
+        "instructions": "Bred avokado på knäckebrödet."
+      },
+      {
+        "name": "Middag",
+        "title": "Vegetarisk curry med ris",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Kikärtor",
+            "amount": "100g"
+          },
+          {
+            "name": "Kokosmjölk",
+            "amount": "1 dl"
+          },
+          {
+            "name": "Grön curry",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Basmatiris",
+            "amount": "90g"
+          }
+        ],
+        "instructions": "Koka curry och servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-19",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Zucchiniplättar med yoghurtsås",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Zucchini",
+            "amount": "100g"
+          },
+          {
+            "name": "Ägg",
+            "amount": "1"
+          },
+          {
+            "name": "Havregryn",
+            "amount": "30g"
+          },
+          {
+            "name": "Naturell yoghurt",
+            "amount": "1 dl"
+          }
+        ],
+        "instructions": "Stek plättar och servera med kall sås."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Grekisk yoghurt",
+            "amount": "150g"
+          },
+          {
+            "name": "Blandade bär",
+            "amount": "100g"
+          },
+          {
+            "name": "Mandlar",
+            "amount": "10g"
+          }
+        ],
+        "instructions": "Toppa yoghurten med bär och mandlar."
+      },
+      {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Laxfilé",
+            "amount": "120g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "100g"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-20",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Fullkornspasta med tomatsås och linser",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Fullkornspasta",
+            "amount": "75g"
+          },
+          {
+            "name": "Krossade tomater",
+            "amount": "100g"
+          },
+          {
+            "name": "Röda linser",
+            "amount": "50g"
+          },
+          {
+            "name": "Vitlök",
+            "amount": "1 klyfta"
+          },
+          {
+            "name": "Oregano",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Koka linser och pasta, blanda med tomatsås."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Äpple med jordnötssmör",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Äpple",
+            "amount": "1"
+          },
+          {
+            "name": "Jordnötssmör",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Skiva äpplet och servera med jordnötssmör."
+      },
+      {
+        "name": "Middag",
+        "title": "Biffwok med grönsaker",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Nötkött (strimlat)",
+            "amount": "150g"
+          },
+          {
+            "name": "Wokgrönsaker",
+            "amount": "200g"
+          },
+          {
+            "name": "Fullkornsris",
+            "amount": "100g"
+          },
+          {
+            "name": "Sojasås",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Woka kött och grönsaker, servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-21",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Kikärtssallad med grönsaker",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Kikärtor (kokta)",
+            "amount": "100g"
+          },
+          {
+            "name": "Gurka",
+            "amount": "50g"
+          },
+          {
+            "name": "Tomat",
+            "amount": "60g"
+          },
+          {
+            "name": "Paprika",
+            "amount": "50g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Citronsaft",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Blanda allt i en skål och rör om."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Knäckebröd med avokado",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Knäckebröd",
+            "amount": "1 skiva"
+          },
+          {
+            "name": "Avokado",
+            "amount": "50g"
+          }
+        ],
+        "instructions": "Bred avokado på knäckebrödet."
+      },
+      {
+        "name": "Middag",
+        "title": "Vegetarisk curry med ris",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Kikärtor",
+            "amount": "100g"
+          },
+          {
+            "name": "Kokosmjölk",
+            "amount": "1 dl"
+          },
+          {
+            "name": "Grön curry",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Basmatiris",
+            "amount": "90g"
+          }
+        ],
+        "instructions": "Koka curry och servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-22",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Kycklingsallad med quinoa",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Grillad kyckling",
+            "amount": "100g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "80g"
+          },
+          {
+            "name": "Spenat",
+            "amount": "30g"
+          },
+          {
+            "name": "Paprika",
+            "amount": "40g"
+          },
+          {
+            "name": "Citronjuice",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Blanda ingredienser och servera med citronjuice."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Grekisk yoghurt",
+            "amount": "150g"
+          },
+          {
+            "name": "Blandade bär",
+            "amount": "100g"
+          },
+          {
+            "name": "Mandlar",
+            "amount": "10g"
+          }
+        ],
+        "instructions": "Toppa yoghurten med bär och mandlar."
+      },
+      {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Laxfilé",
+            "amount": "120g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "100g"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-23",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Vegetarisk lasagne med spenat",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Lasagneplattor",
+            "amount": "70g"
+          },
+          {
+            "name": "Spenat",
+            "amount": "50g"
+          },
+          {
+            "name": "Tomatsås",
+            "amount": "100g"
+          },
+          {
+            "name": "Riven ost",
+            "amount": "30g"
+          }
+        ],
+        "instructions": "Lägg lager och baka i ugn i 25 min."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Äpple med jordnötssmör",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Äpple",
+            "amount": "1"
+          },
+          {
+            "name": "Jordnötssmör",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Skiva äpplet och servera med jordnötssmör."
+      },
+      {
+        "name": "Middag",
+        "title": "Biffwok med grönsaker",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Nötkött (strimlat)",
+            "amount": "150g"
+          },
+          {
+            "name": "Wokgrönsaker",
+            "amount": "200g"
+          },
+          {
+            "name": "Fullkornsris",
+            "amount": "100g"
+          },
+          {
+            "name": "Sojasås",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Woka kött och grönsaker, servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-24",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Falafel med couscous och tahinisås",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Falafel",
+            "amount": "100g"
+          },
+          {
+            "name": "Couscous",
+            "amount": "70g"
+          },
+          {
+            "name": "Gurka",
+            "amount": "50g"
+          },
+          {
+            "name": "Tahinisås",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Servera falafel med couscous och tahinisås."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Knäckebröd med avokado",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Knäckebröd",
+            "amount": "1 skiva"
+          },
+          {
+            "name": "Avokado",
+            "amount": "50g"
+          }
+        ],
+        "instructions": "Bred avokado på knäckebrödet."
+      },
+      {
+        "name": "Middag",
+        "title": "Vegetarisk curry med ris",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Kikärtor",
+            "amount": "100g"
+          },
+          {
+            "name": "Kokosmjölk",
+            "amount": "1 dl"
+          },
+          {
+            "name": "Grön curry",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Basmatiris",
+            "amount": "90g"
+          }
+        ],
+        "instructions": "Koka curry och servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-25",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Fullkornspasta med tomatsås och linser",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Fullkornspasta",
+            "amount": "75g"
+          },
+          {
+            "name": "Krossade tomater",
+            "amount": "100g"
+          },
+          {
+            "name": "Röda linser",
+            "amount": "50g"
+          },
+          {
+            "name": "Vitlök",
+            "amount": "1 klyfta"
+          },
+          {
+            "name": "Oregano",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Koka linser och pasta, blanda med tomatsås."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Grekisk yoghurt",
+            "amount": "150g"
+          },
+          {
+            "name": "Blandade bär",
+            "amount": "100g"
+          },
+          {
+            "name": "Mandlar",
+            "amount": "10g"
+          }
+        ],
+        "instructions": "Toppa yoghurten med bär och mandlar."
+      },
+      {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Laxfilé",
+            "amount": "120g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "100g"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-26",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Kikärtssallad med grönsaker",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Kikärtor (kokta)",
+            "amount": "100g"
+          },
+          {
+            "name": "Gurka",
+            "amount": "50g"
+          },
+          {
+            "name": "Tomat",
+            "amount": "60g"
+          },
+          {
+            "name": "Paprika",
+            "amount": "50g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Citronsaft",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Blanda allt i en skål och rör om."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Äpple med jordnötssmör",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Äpple",
+            "amount": "1"
+          },
+          {
+            "name": "Jordnötssmör",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Skiva äpplet och servera med jordnötssmör."
+      },
+      {
+        "name": "Middag",
+        "title": "Biffwok med grönsaker",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Nötkött (strimlat)",
+            "amount": "150g"
+          },
+          {
+            "name": "Wokgrönsaker",
+            "amount": "200g"
+          },
+          {
+            "name": "Fullkornsris",
+            "amount": "100g"
+          },
+          {
+            "name": "Sojasås",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Woka kött och grönsaker, servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-27",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Rödbetsbiffar med bulgursallad",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Rödbetor",
+            "amount": "100g"
+          },
+          {
+            "name": "Ägg",
+            "amount": "1"
+          },
+          {
+            "name": "Havregryn",
+            "amount": "30g"
+          },
+          {
+            "name": "Bulgur",
+            "amount": "70g"
+          },
+          {
+            "name": "Färsk persilja",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Stek biffar och servera med bulgursallad."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Knäckebröd med avokado",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Knäckebröd",
+            "amount": "1 skiva"
+          },
+          {
+            "name": "Avokado",
+            "amount": "50g"
+          }
+        ],
+        "instructions": "Bred avokado på knäckebrödet."
+      },
+      {
+        "name": "Middag",
+        "title": "Vegetarisk curry med ris",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Kikärtor",
+            "amount": "100g"
+          },
+          {
+            "name": "Kokosmjölk",
+            "amount": "1 dl"
+          },
+          {
+            "name": "Grön curry",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Basmatiris",
+            "amount": "90g"
+          }
+        ],
+        "instructions": "Koka curry och servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-28",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Grön ärtsoppa med rågbröd",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Gröna ärtor",
+            "amount": "150g"
+          },
+          {
+            "name": "Lök",
+            "amount": "30g"
+          },
+          {
+            "name": "Grönsaksbuljong",
+            "amount": "2 dl"
+          },
+          {
+            "name": "Rågbröd",
+            "amount": "1 skiva"
+          }
+        ],
+        "instructions": "Koka soppa på ärtor och servera med rågbröd."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Grekisk yoghurt med bär",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Grekisk yoghurt",
+            "amount": "150g"
+          },
+          {
+            "name": "Blandade bär",
+            "amount": "100g"
+          },
+          {
+            "name": "Mandlar",
+            "amount": "10g"
+          }
+        ],
+        "instructions": "Toppa yoghurten med bär och mandlar."
+      },
+      {
+        "name": "Middag",
+        "title": "Lax med broccoli och quinoa",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Laxfilé",
+            "amount": "120g"
+          },
+          {
+            "name": "Quinoa",
+            "amount": "100g"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "100g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 tsk"
+          }
+        ],
+        "instructions": "Grilla laxen, ångkoka broccoli, servera med quinoa."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-29",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Ugnsbakad rotsaksgratäng",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Potatis",
+            "amount": "100g"
+          },
+          {
+            "name": "Palsternacka",
+            "amount": "80g"
+          },
+          {
+            "name": "Morot",
+            "amount": "70g"
+          },
+          {
+            "name": "Olivolja",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Ugnsbaka allt och servera varmt."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Äpple med jordnötssmör",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Äpple",
+            "amount": "1"
+          },
+          {
+            "name": "Jordnötssmör",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Skiva äpplet och servera med jordnötssmör."
+      },
+      {
+        "name": "Middag",
+        "title": "Biffwok med grönsaker",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Nötkött (strimlat)",
+            "amount": "150g"
+          },
+          {
+            "name": "Wokgrönsaker",
+            "amount": "200g"
+          },
+          {
+            "name": "Fullkornsris",
+            "amount": "100g"
+          },
+          {
+            "name": "Sojasås",
+            "amount": "1 msk"
+          }
+        ],
+        "instructions": "Woka kött och grönsaker, servera med ris."
+      }
+    ]
+  },
+  {
+    "date": "2025-05-30",
+    "meals": [
+      {
+        "name": "Lunch",
+        "title": "Grön ärtsoppa med rågbröd",
+        "time": "12:00",
+        "calories": 450,
+        "ingredients": [
+          {
+            "name": "Gröna ärtor",
+            "amount": "150g"
+          },
+          {
+            "name": "Lök",
+            "amount": "30g"
+          },
+          {
+            "name": "Grönsaksbuljong",
+            "amount": "2 dl"
+          },
+          {
+            "name": "Rågbröd",
+            "amount": "1 skiva"
+          }
+        ],
+        "instructions": "Koka soppa på ärtor och servera med rågbröd."
+      },
+      {
+        "name": "Mellanmål",
+        "title": "Knäckebröd med avokado",
+        "time": "15:00",
+        "calories": 200,
+        "ingredients": [
+          {
+            "name": "Knäckebröd",
+            "amount": "1 skiva"
+          },
+          {
+            "name": "Avokado",
+            "amount": "50g"
+          }
+        ],
+        "instructions": "Bred avokado på knäckebrödet."
+      },
+      {
+        "name": "Middag",
+        "title": "Vegetarisk curry med ris",
+        "time": "17:30",
+        "calories": 500,
+        "ingredients": [
+          {
+            "name": "Kikärtor",
+            "amount": "100g"
+          },
+          {
+            "name": "Kokosmjölk",
+            "amount": "1 dl"
+          },
+          {
+            "name": "Grön curry",
+            "amount": "1 msk"
+          },
+          {
+            "name": "Basmatiris",
+            "amount": "90g"
+          }
+        ],
+        "instructions": "Koka curry och servera med ris."
+      }
+    ]
+  }
 ]
-
-# Shuffle and spread lunches over 30 days, avoiding close repetition
-spread_lunches = (unique_lunches * 3)[:30]
-shuffle(spread_lunches)
-
-# Use previously defined snacks and dinners
-days = []
-start_date = date(2025, 5, 1)
-
-for i in range(30):
-    lunch = spread_lunches[i]
-    snack = snacks[i % len(snacks)]
-    dinner = dinners[i % len(dinners)]
-
-    day_plan = {
-        "date": (start_date + timedelta(days=i)).isoformat(),
-        "meals": [
-            {
-                "name": "Lunch",
-                "title": lunch["title"],
-                "time": "12:00",
-                "calories": lunch["calories"],
-                "ingredients": lunch["ingredients"],
-                "instructions": lunch["instructions"]
-            },
-            {
-                "name": "Mellanmål",
-                "title": snack["title"],
-                "time": "15:00",
-                "calories": snack["calories"],
-                "ingredients": snack["ingredients"],
-                "instructions": snack["instructions"]
-            },
-            {
-                "name": "Middag",
-                "title": dinner["title"],
-                "time": "17:30",
-                "calories": dinner["calories"],
-                "ingredients": dinner["ingredients"],
-                "instructions": dinner["instructions"]
-            }
-        ]
-    }
-    days.append(day_plan)
-
-# Save to JSON
-json_path = "/mnt/data/meal_plan_30days_varied.json"
-with open(json_path, "w", encoding="utf-8") as f:
-    json.dump(days, f, ensure_ascii=False, indent=2)
-
-json_path
