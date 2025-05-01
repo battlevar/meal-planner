@@ -105,9 +105,10 @@
 
     function render() {
       const day = mealPlans[currentIndex];
-      const date = new Date(day.date);
+      const [year, month, dayNum] = day.date.split('-');
+      const date = new Date(year, month - 1, dayNum);
       const dayNames = ['Söndag','Måndag','Tisdag','Onsdag','Torsdag','Fredag','Lördag'];
-      document.getElementById('dayLabel').textContent = dayNames[date.getDay()];
+document.getElementById('dayLabel').textContent = dayNames[date.getDay()];
       document.getElementById('dateDisplay').textContent = day.date;
 
       const container = document.getElementById('mealsContainer');
